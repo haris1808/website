@@ -1593,4 +1593,21 @@ ${message}
         window.open(waUrl, '_blank', 'noopener,noreferrer');
     };
 
+    // ==================== DISABLE MOBILE PINCH & DOUBLE-TAP ZOOM ====================
+    document.addEventListener('gesturestart', function (e) {
+        e.preventDefault();
+    }, { passive: false });
+
+    let lastTouchEnd = 0;
+    document.addEventListener('touchend', function (e) {
+        const now = Date.now();
+        if (now - lastTouchEnd <= 300) {
+            const target = e.target;
+            if (target && target.tagName !== 'INPUT' && target.tagName !== 'TEXTAREA' && target.tagName !== 'SELECT') {
+                e.preventDefault();
+            }
+        }
+        lastTouchEnd = now;
+    }, { passive: false });
+
 });
