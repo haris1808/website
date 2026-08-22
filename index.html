@@ -1,0 +1,2333 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MUHAMAD HARIS | IT Support Specialist & Network Engineer</title>
+    <meta name="description"
+        content="Portofolio Profesional MUHAMAD HARIS - IT Support Specialist & Network Engineer berpengalaman di bidang Hardware, Software, Sistem Jaringan, dan Troubleshooting.">
+    <meta name="theme-color" content="#00d4ff">
+
+    <!-- PWA Web App Manifest -->
+    <link rel="manifest" href="manifest.json">
+    <link rel="apple-touch-icon" href="https://img.icons8.com/fluency/192/maintenance.png">
+
+    <!-- Open Graph / Social Media Meta Tags -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://muhamadharis-portfolio.com/">
+    <meta property="og:title" content="MUHAMAD HARIS | IT Support Specialist">
+    <meta property="og:description"
+        content="IT Support Specialist berpengalaman di bidang troubleshooting Hardware & Software, setup jaringan, dan pemeliharaan sistem.">
+    <meta property="og:image"
+        content="https://i0.wp.com/i.postimg.cc/zDnm020J/4DC9886A-175A-435D-AC3C-89F09A531BF9.jpg">
+
+    <!-- Twitter Meta Tags -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://muhamadharis-portfolio.com/">
+    <meta property="twitter:title" content="MUHAMAD HARIS | IT Support Specialist">
+    <meta property="twitter:description"
+        content="IT Support Specialist berpengalaman di bidang troubleshooting Hardware & Software, setup jaringan, dan pemeliharaan sistem.">
+    <meta property="twitter:image"
+        content="https://i0.wp.com/i.postimg.cc/zDnm020J/4DC9886A-175A-435D-AC3C-89F09A531BF9.jpg">
+
+    <!-- Google Fonts & Font Awesome Icons -->
+    <link rel="stylesheet" href="style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- html2pdf.js for Direct Client-Side PDF Generation -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+
+    <!-- Schema.org Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Muhamad Haris",
+      "jobTitle": "IT Support Specialist & Network Engineer",
+      "url": "https://muhamadharis-portfolio.com",
+      "email": "mhrs.354@gmail.com",
+      "telephone": "+6281517318354",
+      "sameAs": [
+        "https://www.instagram.com/harisjkm",
+        "https://www.linkedin.com/in/muhamad-haris-jkm354/",
+        "https://www.tiktok.com/@harisjkm"
+      ],
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Palembang",
+        "addressRegion": "Sumatera Selatan",
+        "addressCountry": "ID"
+      },
+      "knowsAbout": ["Hardware Diagnostics", "Network Administration", "Windows Server", "MikroTik", "Linux", "IT Troubleshooting", "Data Recovery", "CCTV Installation"]
+    }
+    </script>
+</head>
+
+<body>
+    <!-- Preloader -->
+    <div class="preloader" id="preloader">
+        <div class="preloader-inner">
+            <div class="preloader-logo">&lt;MH/&gt;</div>
+            <div class="preloader-terminal">
+                <div class="terminal-line" data-delay="0">&gt; Initializing system core...</div>
+                <div class="terminal-line" data-delay="300">&gt; Loading hardware diagnostics...</div>
+                <div class="terminal-line" data-delay="600">&gt; Configuring network routing &amp; firewall...</div>
+                <div class="terminal-line" data-delay="900">&gt; System healthy (SLA: 99.9%). Ready!</div>
+            </div>
+            <div class="preloader-bar">
+                <div class="preloader-progress"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scroll Progress -->
+    <div class="scroll-progress" id="scrollProgress"></div>
+
+    <!-- Navbar -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#hero" class="nav-logo" title="Muhamad Haris">&lt;MH/&gt;</a>
+
+            <!-- Desktop Nav Menu -->
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#hero" class="nav-link active" data-en="Home" data-id-lang="Beranda">Home</a></li>
+                <li><a href="#about" class="nav-link" data-en="About" data-id-lang="Tentang">About</a></li>
+                <li><a href="#skills" class="nav-link" data-en="Skills" data-id-lang="Keahlian">Skills</a></li>
+                <li><a href="#services" class="nav-link" data-en="Services" data-id-lang="Layanan">Services</a></li>
+                <li><a href="#case-studies" class="nav-link" data-en="Cases" data-id-lang="Kasus">Cases</a></li>
+                <li><a href="#lab" class="nav-link" data-en="IT Lab" data-id-lang="IT Lab">IT Lab</a></li>
+                <li><a href="#showcase" class="nav-link" data-en="Showcase" data-id-lang="Showcase">Showcase</a></li>
+                <li><a href="#estimator" class="nav-link" data-en="Estimator" data-id-lang="Estimator">Estimator</a>
+                </li>
+                <li><a href="#experience" class="nav-link" data-en="Experience" data-id-lang="Pengalaman">Experience</a>
+                </li>
+                <li><a href="#contact" class="nav-link" data-en="Contact" data-id-lang="Kontak">Contact</a></li>
+            </ul>
+
+            <!-- Actions (Command Palette, Audio, CLI Trigger, Theme, Lang, Hamburger) -->
+            <div class="nav-actions">
+                <button class="nav-cmd-btn" id="openCmdPalette" title="Pencarian Cepat / Command Palette (Ctrl + K)">
+                    <i class="fas fa-search"></i>
+                    <kbd class="kbd-badge">Ctrl K</kbd>
+                </button>
+                <button class="sound-toggle" id="soundToggle" title="Aktifkan / Matikan Audio FX">
+                    <i class="fas fa-volume-up" id="soundIcon"></i>
+                </button>
+                <button class="nav-terminal-btn" id="openTerminalNav" title="Buka Interactive IT Terminal (CLI)">
+                    <i class="fas fa-terminal"></i>
+                    <span class="btn-cli-text">CLI</span>
+                </button>
+                <button class="theme-toggle" id="themeToggle" title="Toggle Dark/Light Mode">
+                    <i class="fas fa-moon" id="themeIcon"></i>
+                </button>
+                <button class="lang-toggle" id="langToggle" title="Switch Language (ID/EN)">
+                    <span class="lang-label">EN</span>
+                </button>
+                <button class="hamburger" id="hamburger" aria-label="Toggle Menu Drawer">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Mobile Slide-out Drawer -->
+    <aside class="mobile-drawer" id="mobileDrawer">
+        <div class="mobile-drawer-header">
+            <div class="nav-logo">&lt;MH/&gt;</div>
+            <button class="drawer-close" id="drawerClose" aria-label="Close Menu">
+                <i class="fas fa-times"></i>
+            </button>
+        </div>
+        <div class="mobile-drawer-body">
+            <ul class="mobile-nav-list">
+                <li><a href="#hero" class="mobile-nav-link" data-en="Home" data-id-lang="Beranda"><i
+                            class="fas fa-home"></i> <span>Home</span></a></li>
+                <li><a href="#about" class="mobile-nav-link" data-en="About Me" data-id-lang="Tentang Saya"><i
+                            class="fas fa-user"></i> <span>About Me</span></a></li>
+                <li><a href="#skills" class="mobile-nav-link" data-en="Skills &amp; Tools"
+                        data-id-lang="Keahlian &amp; Alat"><i class="fas fa-tools"></i> <span>Skills &amp;
+                            Tools</span></a></li>
+                <li><a href="#services" class="mobile-nav-link" data-en="Services" data-id-lang="Layanan"><i
+                            class="fas fa-concierge-bell"></i> <span>Services</span></a></li>
+                <li><a href="#case-studies" class="mobile-nav-link" data-en="Troubleshooting Cases"
+                        data-id-lang="Studi Kasus IT"><i class="fas fa-clipboard-check"></i> <span>Troubleshooting
+                            Cases</span></a></li>
+                <li><a href="#lab" class="mobile-nav-link" data-en="Interactive IT Lab"
+                        data-id-lang="Laboratorium IT Interaktif"><i class="fas fa-network-wired"></i> <span>Interactive
+                            IT Lab</span></a></li>
+                <li><a href="#showcase" class="mobile-nav-link" data-en="Overhaul Showcase"
+                        data-id-lang="Showcase Penataan"><i class="fas fa-sliders-h"></i> <span>Overhaul
+                            Showcase</span></a></li>
+                <li><a href="#estimator" class="mobile-nav-link" data-en="Service &amp; SLA Estimator"
+                        data-id-lang="Kalkulator Estimasi SLA"><i class="fas fa-calculator"></i> <span>Service &amp; SLA
+                            Estimator</span></a></li>
+                <li><a href="#certifications" class="mobile-nav-link" data-en="Certifications"
+                        data-id-lang="Sertifikasi"><i class="fas fa-award"></i> <span>Certifications</span></a></li>
+                <li><a href="#experience" class="mobile-nav-link" data-en="Work Experience"
+                        data-id-lang="Pengalaman Kerja"><i class="fas fa-briefcase"></i> <span>Work
+                            Experience</span></a></li>
+                <li><a href="#testimonials" class="mobile-nav-link" data-en="Client Reviews"
+                        data-id-lang="Testimoni Klien"><i class="fas fa-comments"></i> <span>Client Reviews</span></a>
+                </li>
+                <li><a href="#contact" class="mobile-nav-link" data-en="Contact Me" data-id-lang="Hubungi Saya"><i
+                            class="fas fa-envelope"></i> <span>Contact Me</span></a></li>
+            </ul>
+            <div class="drawer-quick-actions">
+                <button class="drawer-action-btn" onclick="openCmdPaletteModal()">
+                    <i class="fas fa-search"></i>
+                    <span data-en="Command Palette (Ctrl+K)" data-id-lang="Pencarian Cepat (Ctrl+K)">Command Palette
+                        (Ctrl+K)</span>
+                </button>
+                <button class="drawer-action-btn" onclick="openTerminalModal()">
+                    <i class="fas fa-terminal"></i>
+                    <span data-en="Open IT Terminal" data-id-lang="Buka IT Terminal">Open IT Terminal</span>
+                </button>
+                <button class="drawer-action-btn wa-btn" onclick="openWaModal()">
+                    <i class="fab fa-whatsapp"></i>
+                    <span data-en="Quick WhatsApp Preset" data-id-lang="Preset Pesan WhatsApp">Quick WhatsApp
+                        Preset</span>
+                </button>
+            </div>
+        </div>
+    </aside>
+
+    <!-- Mobile Bottom Navigation Bar -->
+    <nav class="mobile-bottom-nav" id="bottomNav">
+        <a href="#hero" class="nav-item active">
+            <i class="fas fa-home"></i>
+            <span data-en="Home" data-id-lang="Beranda">Home</span>
+        </a>
+        <a href="#skills" class="nav-item">
+            <i class="fas fa-tools"></i>
+            <span data-en="Skills" data-id-lang="Keahlian">Skills</span>
+        </a>
+        <a href="#case-studies" class="nav-item">
+            <i class="fas fa-clipboard-check"></i>
+            <span data-en="Cases" data-id-lang="Kasus">Cases</span>
+        </a>
+        <a href="#experience" class="nav-item">
+            <i class="fas fa-briefcase"></i>
+            <span data-en="Exp" data-id-lang="Kerja">Exp</span>
+        </a>
+        <button type="button" class="nav-item nav-item-btn" onclick="openTerminalModal()">
+            <i class="fas fa-terminal"></i>
+            <span>CLI</span>
+        </button>
+    </nav>
+
+    <div class="nav-overlay" id="navOverlay"></div>
+
+    <!-- ==================== HERO SECTION ==================== -->
+    <section class="hero" id="hero">
+        <div class="hero-particles" id="particles"></div>
+        <div class="hero-content">
+            <!-- NOC Health Badge -->
+            <div class="noc-badge reveal" id="heroNocBadge" title="Network Operations Center Live Telemetry">
+                <span class="pulse-dot"></span>
+                <span class="noc-text" data-en="NOC: ONLINE &amp; READY"
+                    data-id-lang="NOC: ONLINE &amp; SIAP KERJA">NOC: ONLINE &amp; READY</span>
+                <span class="noc-divider">|</span>
+                <span class="noc-ping" id="heroPingVal"><i class="fas fa-bolt"></i> RTT 12ms</span>
+                <span class="noc-divider">|</span>
+                <span class="noc-sla"><i class="fas fa-shield-alt"></i> SLA 99.9%</span>
+            </div>
+
+            <p class="hero-greeting" data-en="Hello, I'm" data-id-lang="Halo, Saya">Hello, I'm</p>
+            <h1 class="hero-name">MUHAMAD HARIS</h1>
+            <div class="hero-title-wrapper">
+                <span class="hero-title-prefix">&gt;&nbsp;</span>
+                <span class="typing-text" id="typingText"></span>
+                <span class="cursor">|</span>
+            </div>
+            <p class="hero-desc"
+                data-en="Hello, I am Muhamad Haris, an IT Support Specialist fully committed to the operational reliability of your computer systems. Skilled in reducing hardware failures, centralized software updates, security mitigation, and dependable local network optimization."
+                data-id-lang="Halo, saya Muhamad Haris, spesialis IT Support dengan komitmen penuh pada keandalan operasional sistem komputer Anda. Ahli dalam mereduksi kendala hardware, pemutakhiran software terpusat, mitigasi keamanan, hingga optimalisasi jaringan lokal secara andal.">
+                Halo, saya Muhamad Haris, spesialis IT Support dengan komitmen penuh pada keandalan operasional sistem
+                komputer Anda. Ahli dalam mereduksi kendala hardware, pemutakhiran software terpusat, mitigasi keamanan,
+                hingga optimalisasi jaringan lokal secara andal.</p>
+
+            <div class="hero-buttons">
+                <button class="btn btn-primary" onclick="openWaModal()" data-en="Quick Consultation"
+                    data-id-lang="Konsultasi Cepat">
+                    <i class="fab fa-whatsapp"></i> <span data-en="Quick Chat" data-id-lang="Konsultasi WA">Quick
+                        Chat</span>
+                </button>
+                <button class="btn btn-outline" onclick="openCVModal()" data-en="View &amp; Download CV"
+                    data-id-lang="Lihat &amp; Unduh CV">
+                    <i class="fas fa-file-alt"></i> <span data-en="View &amp; Download CV"
+                        data-id-lang="Lihat &amp; Unduh CV">View &amp; Download CV</span>
+                </button>
+                <button class="btn btn-terminal" onclick="openTerminalModal()" title="Buka CLI IT Support">
+                    <i class="fas fa-terminal"></i> <span>Launch CLI</span>
+                </button>
+            </div>
+
+            <!-- IT Metrics & Health Indicators -->
+            <div class="hero-stats">
+                <div class="stat-item">
+                    <span class="stat-number" data-count="5">0</span>+
+                    <span class="stat-label" data-en="Years Experience" data-id-lang="Tahun Pengalaman">Years
+                        Experience</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number" data-count="99">0</span>.9%
+                    <span class="stat-label" data-en="SLA Reliability" data-id-lang="Kepatuhan SLA">SLA
+                        Reliability</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number" data-count="200">0</span>+
+                    <span class="stat-label" data-en="Tickets Resolved" data-id-lang="Tiket Selesai">Tickets
+                        Resolved</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number" data-count="15">0</span>m
+                    <span class="stat-label" data-en="Avg. Response Time" data-id-lang="Rata-rata Respon">Avg. Response
+                        Time</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="scroll-indicator">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+            <span data-en="Scroll Down" data-id-lang="Gulir ke Bawah">Scroll Down</span>
+        </div>
+    </section>
+
+    <!-- Tech Stack Marquee -->
+    <div class="tech-marquee">
+        <div class="tech-marquee-content">
+            <i class="fab fa-windows"></i> Windows 10/11 &amp; Server
+            <i class="fab fa-linux"></i> Linux Ubuntu / Debian
+            <i class="fas fa-network-wired"></i> MikroTik RouterOS
+            <i class="fab fa-microsoft"></i> Microsoft 365
+            <i class="fas fa-shield-alt"></i> Cyber Security &amp; Antivirus
+            <i class="fas fa-desktop"></i> PC &amp; Laptop Assembly
+            <i class="fas fa-database"></i> Data Recovery &amp; Backup
+            <i class="fas fa-video"></i> CCTV &amp; IP Camera
+            <i class="fas fa-terminal"></i> PowerShell &amp; Bash
+
+            <!-- Seamless duplication -->
+            <i class="fab fa-windows"></i> Windows 10/11 &amp; Server
+            <i class="fab fa-linux"></i> Linux Ubuntu / Debian
+            <i class="fas fa-network-wired"></i> MikroTik RouterOS
+            <i class="fab fa-microsoft"></i> Microsoft 365
+            <i class="fas fa-shield-alt"></i> Cyber Security &amp; Antivirus
+            <i class="fas fa-desktop"></i> PC &amp; Laptop Assembly
+            <i class="fas fa-database"></i> Data Recovery &amp; Backup
+            <i class="fas fa-video"></i> CCTV &amp; IP Camera
+            <i class="fas fa-terminal"></i> PowerShell &amp; Bash
+        </div>
+    </div>
+
+    <!-- ==================== ABOUT SECTION ==================== -->
+    <section class="about" id="about">
+        <div class="container">
+            <h2 class="section-title" data-en="About Me" data-id-lang="Tentang Saya">About Me</h2>
+            <p class="section-subtitle"
+                data-en="Committed to operational excellence, infrastructure stability, and rapid user support"
+                data-id-lang="Berdedikasi untuk keandalan operasional, stabilitas infrastruktur, dan respon teknis cepat">
+                Committed to operational excellence, infrastructure stability, and rapid user support</p>
+            <div class="section-line"></div>
+
+            <div class="about-grid">
+                <div class="about-image reveal-left">
+                    <div class="image-frame">
+                        <img src="profile.jpg"
+                            onerror="this.onerror=null;this.src='https://i0.wp.com/i.postimg.cc/zDnm020J/4DC9886A-175A-435D-AC3C-89F09A531BF9.jpg';"
+                            alt="Muhamad Haris - IT Support Specialist" class="profile-img">
+                        <div class="image-border"></div>
+                        <div class="image-badge">
+                            <i class="fas fa-check"></i> 5+ Yrs Exp
+                        </div>
+                    </div>
+                </div>
+                <div class="about-text reveal-right">
+                    <h3 data-en="Senior IT Support &amp; Systems Technician"
+                        data-id-lang="Senior IT Support &amp; Teknisi Sistem">Senior IT Support &amp; Systems Technician
+                    </h3>
+                    <p data-en="I am an IT Support Professional with a strong track record at PT Indomarco Prismatama, managing IT operations for 150+ workstations and multi-node network infrastructure with a 99% SLA commitment."
+                        data-id-lang="Saya adalah profesional IT Support dengan rekam jejak solid di PT Indomarco Prismatama, mengelola operasional IT untuk 150+ workstation dan infrastruktur jaringan multi-node dengan komitmen SLA 99%.">
+                        I am an IT Support Professional with a strong track record at PT Indomarco Prismatama, managing
+                        IT operations for 150+ workstations and multi-node network infrastructure with a 99% SLA
+                        commitment.</p>
+                    <p data-en="My core capabilities span low-level hardware diagnostics (component testing, motherboard repair, RAM/SSD upgrades), MikroTik routing &amp; VLAN setups, centralized security patching, and disaster recovery."
+                        data-id-lang="Keahlian utama saya mencakup diagnostik hardware mendalam (pengujian komponen, perbaikan motherboard, upgrade RAM/SSD), konfigurasi routing &amp; VLAN MikroTik, standardisasi keamanan antivirus, dan pemulihan data bencana.">
+                        My core capabilities span low-level hardware diagnostics (component testing, motherboard repair,
+                        RAM/SSD upgrades), MikroTik routing &amp; VLAN setups, centralized security patching, and
+                        disaster recovery.</p>
+
+                    <div class="about-info">
+                        <div class="info-item">
+                            <i class="fas fa-user"></i>
+                            <span><strong data-en="Name:" data-id-lang="Nama:">Name:</strong> Muhamad Haris</span>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span><strong data-en="Location:" data-id-lang="Lokasi:">Location:</strong> Palembang,
+                                Indonesia</span>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-envelope"></i>
+                            <span><strong>Email:</strong> mhrs.354@gmail.com</span>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span><strong data-en="Status:" data-id-lang="Status:">Status:</strong> <span
+                                    class="available" data-en="Ready for Full-time / Project"
+                                    data-id-lang="Siap Bekerja / Kontrak">Ready for Full-time / Project</span></span>
+                        </div>
+                    </div>
+
+                    <div class="about-actions">
+                        <a href="#contact" class="btn btn-primary" data-en="Get in Touch"
+                            data-id-lang="Hubungi Saya">Get in Touch</a>
+                        <button class="btn btn-outline" onclick="openCVModal()">
+                            <i class="fas fa-id-card"></i> <span data-en="Full Resume" data-id-lang="Pratinjau CV">Full
+                                Resume</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== SKILLS SECTION ==================== -->
+    <section class="skills" id="skills">
+        <div class="container">
+            <h2 class="section-title" data-en="Technical Competencies" data-id-lang="Kompetensi Teknis">Technical
+                Competencies</h2>
+            <p class="section-subtitle"
+                data-en="Hands-on skills refined through enterprise maintenance and crisis response"
+                data-id-lang="Keahlian praktis yang teruji melalui pemeliharaan korporat dan penanganan insiden darurat">
+                Hands-on skills refined through enterprise maintenance and crisis response</p>
+            <div class="section-line"></div>
+
+            <div class="skills-tabs">
+                <button class="tab-btn active" data-tab="hardware">
+                    <i class="fas fa-microchip"></i>
+                    <span>Hardware</span>
+                </button>
+                <button class="tab-btn" data-tab="software">
+                    <i class="fas fa-code"></i>
+                    <span>Software &amp; OS</span>
+                </button>
+                <button class="tab-btn" data-tab="network">
+                    <i class="fas fa-network-wired"></i>
+                    <span>Network &amp; Security</span>
+                </button>
+            </div>
+
+            <div class="skills-content" id="skillsSwipeContainer">
+                <!-- Hardware Tab -->
+                <div class="tab-content active" id="hardware">
+                    <div class="skills-grid">
+                        <div class="skill-card reveal-stagger tilt-card">
+                            <div class="tilt-glare"></div>
+                            <div class="skill-icon"><i class="fas fa-desktop"></i></div>
+                            <h4 data-en="PC &amp; Server Assembly" data-id-lang="Perakitan PC &amp; Server">PC &amp;
+                                Server Assembly</h4>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="95"></div>
+                            </div>
+                            <span class="skill-percent">95%</span>
+                        </div>
+                        <div class="skill-card reveal-stagger tilt-card">
+                            <div class="tilt-glare"></div>
+                            <div class="skill-icon"><i class="fas fa-tools"></i></div>
+                            <h4 data-en="Hardware Diagnostics (POST/BSOD)"
+                                data-id-lang="Diagnostik Hardware (POST/BSOD)">Hardware Diagnostics (POST/BSOD)</h4>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="92"></div>
+                            </div>
+                            <span class="skill-percent">92%</span>
+                        </div>
+                        <div class="skill-card reveal-stagger tilt-card">
+                            <div class="tilt-glare"></div>
+                            <div class="skill-icon"><i class="fas fa-laptop-medical"></i></div>
+                            <h4 data-en="Laptop Component Repair &amp; Cleaning"
+                                data-id-lang="Perbaikan Komponen &amp; Pembersihan Laptop">Laptop Component Repair &amp;
+                                Cleaning</h4>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="88"></div>
+                            </div>
+                            <span class="skill-percent">88%</span>
+                        </div>
+                        <div class="skill-card reveal-stagger tilt-card">
+                            <div class="tilt-glare"></div>
+                            <div class="skill-icon"><i class="fas fa-print"></i></div>
+                            <h4 data-en="Printers &amp; Thermal POS Setup"
+                                data-id-lang="Setup Printer &amp; Thermal POS">Printers &amp; Thermal POS Setup</h4>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="90"></div>
+                            </div>
+                            <span class="skill-percent">90%</span>
+                        </div>
+                        <div class="skill-card reveal-stagger tilt-card">
+                            <div class="tilt-glare"></div>
+                            <div class="skill-icon"><i class="fas fa-video"></i></div>
+                            <h4 data-en="CCTV / NVR &amp; DVR Cabling" data-id-lang="Instalasi &amp; Kabel CCTV / NVR">
+                                CCTV / NVR &amp; DVR Cabling</h4>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="85"></div>
+                            </div>
+                            <span class="skill-percent">85%</span>
+                        </div>
+                        <div class="skill-card reveal-stagger tilt-card">
+                            <div class="tilt-glare"></div>
+                            <div class="skill-icon"><i class="fas fa-hdd"></i></div>
+                            <h4 data-en="Data Recovery &amp; Storage Health"
+                                data-id-lang="Pemulihan Data &amp; Cek Harddisk/SSD">Data Recovery &amp; Storage Health
+                            </h4>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="82"></div>
+                            </div>
+                            <span class="skill-percent">82%</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Software Tab -->
+                <div class="tab-content" id="software">
+                    <div class="skills-grid">
+                        <div class="skill-card reveal-stagger tilt-card">
+                            <div class="tilt-glare"></div>
+                            <div class="skill-icon"><i class="fab fa-windows"></i></div>
+                            <h4 data-en="Windows 10/11 &amp; Server Deployment"
+                                data-id-lang="Deployment Windows 10/11 &amp; Server">Windows 10/11 &amp; Server
+                                Deployment</h4>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="95"></div>
+                            </div>
+                            <span class="skill-percent">95%</span>
+                        </div>
+                        <div class="skill-card reveal-stagger tilt-card">
+                            <div class="tilt-glare"></div>
+                            <div class="skill-icon"><i class="fab fa-microsoft"></i></div>
+                            <h4 data-en="Microsoft 365, Outlook &amp; Office Suite"
+                                data-id-lang="Microsoft 365, Outlook &amp; Office">Microsoft 365, Outlook &amp; Office
+                                Suite</h4>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="94"></div>
+                            </div>
+                            <span class="skill-percent">94%</span>
+                        </div>
+                        <div class="skill-card reveal-stagger tilt-card">
+                            <div class="tilt-glare"></div>
+                            <div class="skill-icon"><i class="fas fa-headset"></i></div>
+                            <h4 data-en="Remote Support (AnyDesk, TeamViewer)"
+                                data-id-lang="Remote Support (AnyDesk, TeamViewer)">Remote Support (AnyDesk, TeamViewer)
+                            </h4>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="96"></div>
+                            </div>
+                            <span class="skill-percent">96%</span>
+                        </div>
+                        <div class="skill-card reveal-stagger tilt-card">
+                            <div class="tilt-glare"></div>
+                            <div class="skill-icon"><i class="fas fa-shield-alt"></i></div>
+                            <h4 data-en="Antivirus, Malware Removal &amp; Patching"
+                                data-id-lang="Antivirus, Pembersihan Malware &amp; Patch">Antivirus, Malware Removal
+                                &amp; Patching</h4>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="90"></div>
+                            </div>
+                            <span class="skill-percent">90%</span>
+                        </div>
+                        <div class="skill-card reveal-stagger tilt-card">
+                            <div class="tilt-glare"></div>
+                            <div class="skill-icon"><i class="fas fa-database"></i></div>
+                            <h4 data-en="Automated Backup &amp; Imaging Solutions"
+                                data-id-lang="Solusi Backup Otomatis &amp; Image OS">Automated Backup &amp; Imaging
+                                Solutions</h4>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="86"></div>
+                            </div>
+                            <span class="skill-percent">86%</span>
+                        </div>
+                        <div class="skill-card reveal-stagger tilt-card">
+                            <div class="tilt-glare"></div>
+                            <div class="skill-icon"><i class="fab fa-linux"></i></div>
+                            <h4 data-en="Linux Ubuntu CLI Administration" data-id-lang="Administrasi Linux Ubuntu CLI">
+                                Linux Ubuntu CLI Administration</h4>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="78"></div>
+                            </div>
+                            <span class="skill-percent">78%</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Network Tab -->
+                <div class="tab-content" id="network">
+                    <div class="skills-grid">
+                        <div class="skill-card reveal-stagger tilt-card">
+                            <div class="tilt-glare"></div>
+                            <div class="skill-icon"><i class="fas fa-network-wired"></i></div>
+                            <h4 data-en="MikroTik RouterOS Routing &amp; Bandwidth"
+                                data-id-lang="Routing &amp; Bandwidth MikroTik">MikroTik RouterOS Routing &amp;
+                                Bandwidth</h4>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="90"></div>
+                            </div>
+                            <span class="skill-percent">90%</span>
+                        </div>
+                        <div class="skill-card reveal-stagger tilt-card">
+                            <div class="tilt-glare"></div>
+                            <div class="skill-icon"><i class="fas fa-sitemap"></i></div>
+                            <h4 data-en="LAN Architecture, Cabling &amp; Crimping"
+                                data-id-lang="Arsitektur LAN, Kabel &amp; Crimping">LAN Architecture, Cabling &amp;
+                                Crimping</h4>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="95"></div>
+                            </div>
+                            <span class="skill-percent">95%</span>
+                        </div>
+                        <div class="skill-card reveal-stagger tilt-card">
+                            <div class="tilt-glare"></div>
+                            <div class="skill-icon"><i class="fas fa-wifi"></i></div>
+                            <h4 data-en="Access Point &amp; Wireless Bridge Setup"
+                                data-id-lang="Setup Access Point &amp; Wireless Bridge">Access Point &amp; Wireless
+                                Bridge Setup</h4>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="88"></div>
+                            </div>
+                            <span class="skill-percent">88%</span>
+                        </div>
+                        <div class="skill-card reveal-stagger tilt-card">
+                            <div class="tilt-glare"></div>
+                            <div class="skill-icon"><i class="fas fa-project-diagram"></i></div>
+                            <h4 data-en="TCP/IP, DHCP, DNS, VLAN Troubleshooting"
+                                data-id-lang="Troubleshooting TCP/IP, DHCP, DNS, VLAN">TCP/IP, DHCP, DNS, VLAN
+                                Troubleshooting</h4>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="90"></div>
+                            </div>
+                            <span class="skill-percent">90%</span>
+                        </div>
+                        <div class="skill-card reveal-stagger tilt-card">
+                            <div class="tilt-glare"></div>
+                            <div class="skill-icon"><i class="fas fa-lock"></i></div>
+                            <h4 data-en="Firewall Rules &amp; Port Forwarding"
+                                data-id-lang="Aturan Firewall &amp; Port Forwarding">Firewall Rules &amp; Port
+                                Forwarding</h4>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="82"></div>
+                            </div>
+                            <span class="skill-percent">82%</span>
+                        </div>
+                        <div class="skill-card reveal-stagger tilt-card">
+                            <div class="tilt-glare"></div>
+                            <div class="skill-icon"><i class="fas fa-server"></i></div>
+                            <h4 data-en="NAS &amp; File Server Management"
+                                data-id-lang="Manajemen File Server &amp; NAS">NAS &amp; File Server Management</h4>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="85"></div>
+                            </div>
+                            <span class="skill-percent">85%</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== SERVICES SECTION ==================== -->
+    <section class="services" id="services">
+        <div class="container">
+            <h2 class="section-title" data-en="What I Provide" data-id-lang="Layanan Saya">What I Provide</h2>
+            <p class="section-subtitle"
+                data-en="End-to-end technical support, maintenance, and enterprise infrastructure solutions"
+                data-id-lang="Dukungan teknis menyeluruh, pemeliharaan rutin, dan solusi infrastruktur kantor">
+                End-to-end technical support, maintenance, and enterprise infrastructure solutions</p>
+            <div class="section-line"></div>
+
+            <div class="services-grid">
+                <div class="service-card reveal-stagger tilt-card">
+                    <div class="tilt-glare"></div>
+                    <div class="service-icon"><i class="fas fa-laptop-code"></i></div>
+                    <h3 data-en="PC &amp; Laptop Repair" data-id-lang="Perbaikan PC &amp; Laptop">PC &amp; Laptop Repair
+                    </h3>
+                    <p data-en="Full hardware diagnosis, thermal re-pasting, component replacement (motherboard, power supply, RAM, SSD), and performance optimization."
+                        data-id-lang="Diagnostik hardware total, ganti pasta thermal, ganti komponen (motherboard, PSU, RAM, SSD), dan optimasi performa.">
+                        Full hardware diagnosis, thermal re-pasting, component replacement (motherboard, power supply,
+                        RAM, SSD), and performance optimization.</p>
+                </div>
+                <div class="service-card reveal-stagger tilt-card">
+                    <div class="tilt-glare"></div>
+                    <div class="service-icon"><i class="fas fa-network-wired"></i></div>
+                    <h3 data-en="Corporate Network Setup" data-id-lang="Instalasi Jaringan Kantor">Corporate Network
+                        Setup</h3>
+                    <p data-en="Design and deployment of LAN networks, structured cable management, MikroTik router configuration, WiFi roaming, and bandwidth management."
+                        data-id-lang="Perancangan dan penarikan kabel LAN, manajemen kabel server, konfigurasi router MikroTik, WiFi roaming, dan manajemen kuota bandwidth.">
+                        Design and deployment of LAN networks, structured cable management, MikroTik router
+                        configuration, WiFi roaming, and bandwidth management.</p>
+                </div>
+                <div class="service-card reveal-stagger tilt-card">
+                    <div class="tilt-glare"></div>
+                    <div class="service-icon"><i class="fas fa-headset"></i></div>
+                    <h3 data-en="Remote &amp; On-Site Support" data-id-lang="Dukungan Remote &amp; On-Site">Remote &amp;
+                        On-Site Support</h3>
+                    <p data-en="Rapid resolution for software crashes, printer driver errors, email configuration (Outlook/M365), and operating system glitches."
+                        data-id-lang="Penanganan cepat aplikasi error, kendala printer, konfigurasi email Outlook/M365, dan pemulihan sistem operasi tanpa mengganggu jam kerja.">
+                        Rapid resolution for software crashes, printer driver errors, email configuration
+                        (Outlook/M365), and operating system glitches.</p>
+                </div>
+                <div class="service-card reveal-stagger tilt-card">
+                    <div class="tilt-glare"></div>
+                    <div class="service-icon"><i class="fas fa-shield-virus"></i></div>
+                    <h3 data-en="Security &amp; System Hardening" data-id-lang="Keamanan &amp; Pembersihan Virus">
+                        Security &amp; System Hardening</h3>
+                    <p data-en="Malware/ransomware eradication, centralized antivirus deployment, system patching, and scheduled offline/cloud backup protocols."
+                        data-id-lang="Pembersihan malware/ransomware, standardisasi antivirus, patch keamanan OS berkala, dan protokol backup data otomatis.">
+                        Malware/ransomware eradication, centralized antivirus deployment, system patching, and scheduled
+                        offline/cloud backup protocols.</p>
+                </div>
+                <div class="service-card reveal-stagger tilt-card">
+                    <div class="tilt-glare"></div>
+                    <div class="service-icon"><i class="fas fa-video"></i></div>
+                    <h3 data-en="CCTV Security Systems" data-id-lang="Instalasi Kamera CCTV">CCTV Security Systems</h3>
+                    <p data-en="Installation of IP/Analog security cameras, NVR/DVR storage calculation, PoE switch wiring, and secure mobile streaming setup."
+                        data-id-lang="Pemasangan kamera keamanan IP/Analog, konfigurasi NVR/DVR, penataan switch PoE, dan akses monitoring via smartphone.">
+                        Installation of IP/Analog security cameras, NVR/DVR storage calculation, PoE switch wiring, and
+                        secure mobile streaming setup.</p>
+                </div>
+                <div class="service-card reveal-stagger tilt-card">
+                    <div class="tilt-glare"></div>
+                    <div class="service-icon"><i class="fas fa-clipboard-list"></i></div>
+                    <h3 data-en="Preventive Maintenance" data-id-lang="Pemeliharaan Berkala (PM)">Preventive Maintenance
+                    </h3>
+                    <p data-en="Scheduled hardware cleaning, disk health monitoring (S.M.A.R.T), log audits, and SLA reporting to prevent costly downtime."
+                        data-id-lang="Pembersihan fisik berkala, monitoring kesehatan storage S.M.A.R.T, audit log error, dan pelaporan SLA guna mencegah downtime.">
+                        Scheduled hardware cleaning, disk health monitoring (S.M.A.R.T), log audits, and SLA reporting
+                        to prevent costly downtime.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== NEW SECTION: TROUBLESHOOTING CASE STUDIES ==================== -->
+    <section class="case-studies" id="case-studies">
+        <div class="container">
+            <h2 class="section-title" data-en="Troubleshooting Case Studies" data-id-lang="Studi Kasus Troubleshooting">
+                Troubleshooting Case Studies</h2>
+            <p class="section-subtitle" data-en="Real-world problem solving: From symptom analysis to reliable recovery"
+                data-id-lang="Pemecahan masalah nyata: Dari diagnosa gejala hingga pemulihan sistem yang stabil">
+                Real-world problem solving: From symptom analysis to reliable recovery</p>
+            <div class="section-line"></div>
+
+            <!-- Case Category Filters -->
+            <div class="case-filter-wrapper">
+                <button class="case-filter-btn active" data-filter="all">All Cases</button>
+                <button class="case-filter-btn" data-filter="hardware">Hardware</button>
+                <button class="case-filter-btn" data-filter="network">Network</button>
+                <button class="case-filter-btn" data-filter="system">System &amp; OS</button>
+                <button class="case-filter-btn" data-filter="security">Security</button>
+            </div>
+
+            <div class="case-studies-grid" id="casesGrid">
+                <!-- Case 1 -->
+                <div class="case-card reveal-stagger" data-category="network">
+                    <div class="case-header">
+                        <span class="case-tag network-tag"><i class="fas fa-network-wired"></i> Network</span>
+                        <span class="case-impact-badge"><i class="fas fa-bolt"></i> 100% Resolved</span>
+                    </div>
+                    <h3 class="case-title" data-en="MikroTik Broadcast Storm &amp; Corporate LAN Outage"
+                        data-id-lang="Insiden Broadcast Storm &amp; Down Jaringan Kantor">MikroTik Broadcast Storm &amp;
+                        Corporate LAN Outage</h3>
+
+                    <div class="case-steps">
+                        <div class="case-step">
+                            <span class="step-label text-danger"><i class="fas fa-exclamation-triangle"></i>
+                                Problem:</span>
+                            <p data-en="Entire office network suffered from 80% packet loss and high latency (>2000ms), disrupting point-of-sale and cashier transactions."
+                                data-id-lang="Seluruh jaringan kantor mengalami packet loss 80% dan latensi parah (>2000ms), melumpuhkan sistem kasir dan transaksi toko.">
+                                Entire office network suffered from 80% packet loss and high latency (>2000ms),
+                                disrupting point-of-sale and cashier transactions.</p>
+                        </div>
+                        <div class="case-step">
+                            <span class="step-label text-warning"><i class="fas fa-search"></i> Diagnosis:</span>
+                            <p data-en="Analyzed traffic with Wireshark and discovered an accidental loop back created by an unmanaged desk switch causing an ARP broadcast storm."
+                                data-id-lang="Analisis trafik dengan Wireshark menemukan loop fisik yang tidak sengaja terpasang pada switch meja tanpa RSTP, memicu ARP broadcast storm.">
+                                Analyzed traffic with Wireshark and discovered an accidental loop back created by an
+                                unmanaged desk switch causing an ARP broadcast storm.</p>
+                        </div>
+                        <div class="case-step">
+                            <span class="step-label text-success"><i class="fas fa-wrench"></i> Solution:</span>
+                            <p data-en="Isolated the looped port, activated Loop Protect on MikroTik, segregated the POS terminals into a dedicated VLAN, and enabled RSTP."
+                                data-id-lang="Isolasi port bermasalah, aktifkan Loop Protect pada MikroTik, pisahkan terminal POS ke VLAN khusus, dan aktifkan RSTP.">
+                                Isolated the looped port, activated Loop Protect on MikroTik, segregated the POS
+                                terminals into a dedicated VLAN, and enabled RSTP.</p>
+                        </div>
+                    </div>
+
+                    <div class="case-footer">
+                        <div class="case-tools">
+                            <span><i class="fas fa-tools"></i> Tools:</span>
+                            <code>MikroTik RouterOS</code> <code>Wireshark</code> <code>VLAN</code>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Case 2 -->
+                <div class="case-card reveal-stagger" data-category="hardware">
+                    <div class="case-header">
+                        <span class="case-tag hardware-tag"><i class="fas fa-microchip"></i> Hardware</span>
+                        <span class="case-impact-badge"><i class="fas fa-bolt"></i> Zero Data Loss</span>
+                    </div>
+                    <h3 class="case-title" data-en="Critical Storage Degraded in Central POS Workstation"
+                        data-id-lang="Degradasi Storage Kritis pada PC Kasir Utama">Critical Storage Degraded in Central
+                        POS Workstation</h3>
+
+                    <div class="case-steps">
+                        <div class="case-step">
+                            <span class="step-label text-danger"><i class="fas fa-exclamation-triangle"></i>
+                                Problem:</span>
+                            <p data-en="Main accounting PC froze repeatedly with Blue Screen (KERNEL_DATA_INPAGE_ERROR) during daily database consolidation."
+                                data-id-lang="PC akuntansi utama sering freeze dan mengalami Blue Screen (KERNEL_DATA_INPAGE_ERROR) saat rekap database harian.">
+                                Main accounting PC froze repeatedly with Blue Screen (KERNEL_DATA_INPAGE_ERROR) during
+                                daily database consolidation.</p>
+                        </div>
+                        <div class="case-step">
+                            <span class="step-label text-warning"><i class="fas fa-search"></i> Diagnosis:</span>
+                            <p data-en="S.M.A.R.T analysis revealed 120+ reallocated sectors on the primary HDD, indicating imminent mechanical failure."
+                                data-id-lang="Pemeriksaan S.M.A.R.T mendeteksi 120+ bad sector pada HDD utama yang menandakan kerusakan mekanikal segera.">
+                                S.M.A.R.T analysis revealed 120+ reallocated sectors on the primary HDD, indicating
+                                imminent mechanical failure.</p>
+                        </div>
+                        <div class="case-step">
+                            <span class="step-label text-success"><i class="fas fa-wrench"></i> Solution:</span>
+                            <p data-en="Created a sector-by-sector disk image via Clonezilla live USB, restored onto a new NVMe SSD, and scheduled automated cloud backups."
+                                data-id-lang="Kloning disk sektor-ke-sektor dengan Clonezilla via live USB, migrasi ke SSD NVMe baru, dan pasang jadwal backup otomatis.">
+                                Created a sector-by-sector disk image via Clonezilla live USB, restored onto a new NVMe
+                                SSD, and scheduled automated cloud backups.</p>
+                        </div>
+                    </div>
+
+                    <div class="case-footer">
+                        <div class="case-tools">
+                            <span><i class="fas fa-tools"></i> Tools:</span>
+                            <code>Clonezilla</code> <code>CrystalDiskInfo</code> <code>NVMe SSD</code>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Case 3 -->
+                <div class="case-card reveal-stagger" data-category="security">
+                    <div class="case-header">
+                        <span class="case-tag security-tag"><i class="fas fa-shield-alt"></i> Security</span>
+                        <span class="case-impact-badge"><i class="fas fa-bolt"></i> 100% Sanitized</span>
+                    </div>
+                    <h3 class="case-title" data-en="Ransomware Vector Containment &amp; Clean System Deployment"
+                        data-id-lang="Isolasi Infeksi Malware &amp; Standardisasi Patch">Ransomware Vector Containment
+                        &amp; Clean System Deployment</h3>
+
+                    <div class="case-steps">
+                        <div class="case-step">
+                            <span class="step-label text-danger"><i class="fas fa-exclamation-triangle"></i>
+                                Problem:</span>
+                            <p data-en="Suspicious outbound connections and unauthorized background crypto miner detected across 5 operational branch PCs."
+                                data-id-lang="Terdeteksi koneksi mencurigakan ke server luar dan proses mining crypto siluman pada 5 PC operasional cabang.">
+                                Suspicious outbound connections and unauthorized background crypto miner detected across
+                                5 operational branch PCs.</p>
+                        </div>
+                        <div class="case-step">
+                            <span class="step-label text-warning"><i class="fas fa-search"></i> Diagnosis:</span>
+                            <p data-en="Infection originated from an unverified flash drive bypass. Persistent scheduled tasks were continuously reviving the malicious payload."
+                                data-id-lang="Infeksi berasal dari flashdisk tanpa scan. Scheduled task tersembunyi terus mengunduh ulang file miner di background.">
+                                Infection originated from an unverified flash drive bypass. Persistent scheduled tasks
+                                were continuously reviving the malicious payload.</p>
+                        </div>
+                        <div class="case-step">
+                            <span class="step-label text-success"><i class="fas fa-wrench"></i> Solution:</span>
+                            <p data-en="Disconnected nodes from the LAN, purged registry tasks, deployed enterprise antivirus with USB mass storage lockdown policies."
+                                data-id-lang="Isolasi node dari LAN, bersihkan registry dan task scheduler, terapkan antivirus tersentralisasi dengan proteksi USB mass storage.">
+                                Disconnected nodes from the LAN, purged registry tasks, deployed enterprise antivirus
+                                with USB mass storage lockdown policies.</p>
+                        </div>
+                    </div>
+
+                    <div class="case-footer">
+                        <div class="case-tools">
+                            <span><i class="fas fa-tools"></i> Tools:</span>
+                            <code>PowerShell</code> <code>Autoruns</code> <code>Kaspersky/Defender</code>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Case 4 -->
+                <div class="case-card reveal-stagger" data-category="system">
+                    <div class="case-header">
+                        <span class="case-tag system-tag"><i class="fab fa-windows"></i> System &amp; OS</span>
+                        <span class="case-impact-badge"><i class="fas fa-bolt"></i> 50+ PCs Deployed</span>
+                    </div>
+                    <h3 class="case-title" data-en="Automated Windows 11 Enterprise Migration"
+                        data-id-lang="Migrasi Otomatis Windows 11 untuk 50+ PC">Automated Windows 11 Enterprise
+                        Migration</h3>
+
+                    <div class="case-steps">
+                        <div class="case-step">
+                            <span class="step-label text-danger"><i class="fas fa-exclamation-triangle"></i>
+                                Problem:</span>
+                            <p data-en="Manual OS installation on 50+ new office PCs was projected to take 2 weeks, causing critical branch launch delays."
+                                data-id-lang="Instalasi manual OS dan software kantor pada 50+ PC baru diperkirakan memakan 2 minggu dan menunda pembukaan cabang.">
+                                Manual OS installation on 50+ new office PCs was projected to take 2 weeks, causing
+                                critical branch launch delays.</p>
+                        </div>
+                        <div class="case-step">
+                            <span class="step-label text-warning"><i class="fas fa-search"></i> Diagnosis:</span>
+                            <p data-en="Identified repetitive driver installations, printer configurations, and security baseline policies as the bottleneck."
+                                data-id-lang="Pemasangan driver satu per satu dan konfigurasi printer/aplikasi manual menjadi bottleneck waktu terbesar.">
+                                Identified repetitive driver installations, printer configurations, and security
+                                baseline policies as the bottleneck.</p>
+                        </div>
+                        <div class="case-step">
+                            <span class="step-label text-success"><i class="fas fa-wrench"></i> Solution:</span>
+                            <p data-en="Built a customized Sysprep golden image with pre-configured drivers and unattended answers file, deploying 50 PCs in under 2 days."
+                                data-id-lang="Membuat master image Windows teroptimasi dengan Sysprep dan unattended XML, menyelesaikan 50 PC dalam 2 hari.">
+                                Built a customized Sysprep golden image with pre-configured drivers and unattended
+                                answers file, deploying 50 PCs in under 2 days.</p>
+                        </div>
+                    </div>
+
+                    <div class="case-footer">
+                        <div class="case-tools">
+                            <span><i class="fas fa-tools"></i> Tools:</span>
+                            <code>Sysprep</code> <code>DISM</code> <code>Clonezilla</code> <code>XML Answer File</code>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== 1. INTERACTIVE IT LAB & TOOLS SECTION ==================== -->
+    <section class="network-lab" id="lab">
+        <div class="container">
+            <h2 class="section-title" data-en="Interactive IT Lab &amp; Tools"
+                data-id-lang="Laboratorium IT &amp; Alat Interaktif">Interactive IT Lab &amp; Tools</h2>
+            <p class="section-subtitle"
+                data-en="Live enterprise network topology simulator &amp; instant IPv4 CIDR subnetting calculator"
+                data-id-lang="Simulator topologi jaringan enterprise live &amp; kalkulator subnetting IPv4 CIDR instan">
+                Live enterprise network topology simulator &amp; instant IPv4 CIDR subnetting calculator</p>
+            <div class="section-line"></div>
+
+            <!-- Lab Sub-Tab Navigation -->
+            <div class="lab-tab-nav">
+                <button class="lab-tab-btn active" data-tab="topology" onclick="switchLabTab('topology')">
+                    <i class="fas fa-project-diagram"></i>
+                    <span data-en="Network Topology &amp; Packet Tracer"
+                        data-id-lang="Topologi Jaringan &amp; Packet Tracer">Network Topology &amp; Packet Tracer</span>
+                </button>
+                <button class="lab-tab-btn" data-tab="subnet" onclick="switchLabTab('subnet')">
+                    <i class="fas fa-calculator"></i>
+                    <span data-en="Live IP Subnet &amp; CIDR Calculator"
+                        data-id-lang="Kalkulator Subnet &amp; CIDR IP">Live IP Subnet &amp; CIDR Calculator</span>
+                </button>
+            </div>
+
+            <!-- TAB 1: Network Topology Simulator -->
+            <div class="lab-tab-content active" id="labTopologyTab">
+                <div class="topology-lab-wrapper">
+                    <!-- Control Bar -->
+                    <div class="topology-controls">
+                        <div class="control-group">
+                            <label for="topoSource"><i class="fas fa-sign-out-alt text-primary"></i> <span
+                                    data-en="Source Node:" data-id-lang="Node Asal:">Source Node:</span></label>
+                            <select id="topoSource" class="topo-select">
+                                <option value="pos">VLAN 10 - POS Terminal (192.168.10.15)</option>
+                                <option value="office" selected>VLAN 20 - Office PC (192.168.20.44)</option>
+                                <option value="server">VLAN 30 - Local Server (192.168.30.10)</option>
+                                <option value="wan">WAN - Internet Gateway (203.0.113.1)</option>
+                            </select>
+                        </div>
+
+                        <div class="control-group">
+                            <label for="topoDest"><i class="fas fa-sign-in-alt text-success"></i> <span
+                                    data-en="Destination Node:" data-id-lang="Node Tujuan:">Destination
+                                    Node:</span></label>
+                            <select id="topoDest" class="topo-select">
+                                <option value="pos">VLAN 10 - POS Terminal (192.168.10.15)</option>
+                                <option value="office">VLAN 20 - Office PC (192.168.20.44)</option>
+                                <option value="server" selected>VLAN 30 - Local Server (192.168.30.10)</option>
+                                <option value="wan">WAN - Internet Gateway (203.0.113.1)</option>
+                            </select>
+                        </div>
+
+                        <div class="control-actions">
+                            <button class="btn-topo-action" id="btnTracePing" onclick="runTopologyPacketTrace()">
+                                <i class="fas fa-paper-plane"></i>
+                                <span data-en="Simulate Packet Trace" data-id-lang="Kirim Paket / Trace Ping">Simulate
+                                    Packet Trace</span>
+                            </button>
+                            <button class="btn-topo-action btn-storm-action" id="btnStormSim"
+                                onclick="runBroadcastStormSim()">
+                                <i class="fas fa-shield-virus"></i>
+                                <span data-en="Test Loop Protection" data-id-lang="Uji Loop &amp; RSTP Protection">Test
+                                    Loop Protection</span>
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Topology Visual Canvas -->
+                    <div class="topology-diagram-container" id="topologyCanvas">
+                        <!-- Connecting Cables SVG -->
+                        <svg class="topo-svg-canvas" id="topoSvg" xmlns="http://www.w3.org/2000/svg">
+                            <defs>
+                                <linearGradient id="cableGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                                    <stop offset="0%" stop-color="#3b82f6" />
+                                    <stop offset="100%" stop-color="#06b6d4" />
+                                </linearGradient>
+                            </defs>
+                            <line id="cable-wan-router" class="cable-line" x1="20%" y1="20%" x2="50%" y2="20%" />
+                            <line id="cable-router-switch" class="cable-line" x1="50%" y1="20%" x2="50%" y2="55%" />
+                            <line id="cable-switch-pos" class="cable-line" x1="50%" y1="55%" x2="20%" y2="85%" />
+                            <line id="cable-switch-office" class="cable-line" x1="50%" y1="55%" x2="50%" y2="85%" />
+                            <line id="cable-switch-server" class="cable-line" x1="50%" y1="55%" x2="80%" y2="85%" />
+                        </svg>
+
+                        <!-- Level 1: Internet & Router -->
+                        <div class="topo-layer topo-layer-top">
+                            <div class="topo-node" id="node-wan" data-node="wan">
+                                <div class="node-icon"><i class="fas fa-globe"></i></div>
+                                <div class="node-details">
+                                    <span class="node-title">WAN Gateway</span>
+                                    <span class="node-ip">203.0.113.1 / Fiber</span>
+                                </div>
+                                <span class="node-status status-online"></span>
+                            </div>
+
+                            <div class="topo-node node-core" id="node-router" data-node="router">
+                                <div class="node-icon"><i class="fas fa-server"></i></div>
+                                <div class="node-details">
+                                    <span class="node-title">MikroTik Router</span>
+                                    <span class="node-ip">Core Gateway &amp; Firewall</span>
+                                </div>
+                                <span class="node-status status-online"></span>
+                            </div>
+                        </div>
+
+                        <!-- Level 2: Core Switch -->
+                        <div class="topo-layer topo-layer-mid">
+                            <div class="topo-node node-switch" id="node-switch" data-node="switch">
+                                <div class="node-icon"><i class="fas fa-network-wired"></i></div>
+                                <div class="node-details">
+                                    <span class="node-title">Managed Switch 24P</span>
+                                    <span class="node-ip">802.1Q VLAN Trunking</span>
+                                </div>
+                                <span class="node-status status-online"></span>
+                            </div>
+                        </div>
+
+                        <!-- Level 3: Segregated VLAN Endpoints -->
+                        <div class="topo-layer topo-layer-bottom">
+                            <div class="topo-node" id="node-pos" data-node="pos">
+                                <div class="node-badge vlan-10">VLAN 10</div>
+                                <div class="node-icon"><i class="fas fa-cash-register"></i></div>
+                                <div class="node-details">
+                                    <span class="node-title">POS Kasir Subnet</span>
+                                    <span class="node-ip">192.168.10.15</span>
+                                </div>
+                                <span class="node-status status-online"></span>
+                            </div>
+
+                            <div class="topo-node" id="node-office" data-node="office">
+                                <div class="node-badge vlan-20">VLAN 20</div>
+                                <div class="node-icon"><i class="fas fa-desktop"></i></div>
+                                <div class="node-details">
+                                    <span class="node-title">Office Workstations</span>
+                                    <span class="node-ip">192.168.20.44</span>
+                                </div>
+                                <span class="node-status status-online"></span>
+                            </div>
+
+                            <div class="topo-node" id="node-server" data-node="server">
+                                <div class="node-badge vlan-30">VLAN 30</div>
+                                <div class="node-icon"><i class="fas fa-database"></i></div>
+                                <div class="node-details">
+                                    <span class="node-title">Local Server &amp; NAS</span>
+                                    <span class="node-ip">192.168.30.10</span>
+                                </div>
+                                <span class="node-status status-online"></span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Live Packet Log Terminal -->
+                    <div class="topo-log-console">
+                        <div class="console-header">
+                            <div class="console-title"><i class="fas fa-terminal"></i> <span>Live Packet Tracer
+                                    Terminal</span></div>
+                            <button class="console-clear" onclick="clearTopoLog()"><i class="fas fa-trash-alt"></i>
+                                Clear</button>
+                        </div>
+                        <div class="console-body" id="topoLogBody">
+                            <div class="log-line text-muted">[System Ready] Network topology initialized. Select source
+                                &amp; destination nodes above to trace packets.</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- TAB 2: Live IP Subnet & CIDR Calculator -->
+            <div class="lab-tab-content" id="labSubnetTab">
+                <div class="subnet-calc-wrapper">
+                    <!-- Calculator Inputs -->
+                    <div class="calc-input-card">
+                        <h3 class="calc-title"><i class="fas fa-sliders-h"></i> <span
+                                data-en="IPv4 Subnet Configuration" data-id-lang="Konfigurasi Subnet IPv4">IPv4 Subnet
+                                Configuration</span></h3>
+
+                        <div class="calc-form-grid">
+                            <div class="calc-field">
+                                <label for="calcIpAddress"><span data-en="IP Address:" data-id-lang="Alamat IP:">IP
+                                        Address:</span></label>
+                                <div class="input-with-icon">
+                                    <i class="fas fa-network-wired"></i>
+                                    <input type="text" id="calcIpAddress" value="192.168.10.1"
+                                        placeholder="e.g. 192.168.1.1" oninput="calculateSubnet()">
+                                </div>
+                            </div>
+
+                            <div class="calc-field">
+                                <label for="calcCidr"><span data-en="CIDR Prefix Subnet Mask:"
+                                        data-id-lang="Prefix CIDR Subnet Mask:">CIDR Prefix Subnet Mask:</span> (<span
+                                        id="cidrDisplay">/24</span>)</label>
+                                <select id="calcCidr" class="calc-select" onchange="calculateSubnet()">
+                                    <option value="8">/8 - 255.0.0.0 (16.7M Hosts)</option>
+                                    <option value="16">/16 - 255.255.0.0 (65,534 Hosts)</option>
+                                    <option value="20">/20 - 255.255.240.0 (4,094 Hosts)</option>
+                                    <option value="24" selected>/24 - 255.255.255.0 (254 Hosts - Standard LAN)</option>
+                                    <option value="25">/25 - 255.255.255.128 (126 Hosts)</option>
+                                    <option value="26">/26 - 255.255.255.192 (62 Hosts)</option>
+                                    <option value="27">/27 - 255.255.255.224 (30 Hosts)</option>
+                                    <option value="28">/28 - 255.255.255.240 (14 Hosts)</option>
+                                    <option value="29">/29 - 255.255.255.248 (6 Hosts - Point to Point)</option>
+                                    <option value="30">/30 - 255.255.255.252 (2 Hosts - Router Link)</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <!-- Quick Presets -->
+                        <div class="subnet-presets">
+                            <span class="preset-label"><i class="fas fa-bolt"></i> <span data-en="Quick Presets:"
+                                    data-id-lang="Preset Cepat:">Quick Presets:</span></span>
+                            <button class="preset-pill" onclick="applySubnetPreset('192.168.1.1', 24)">Class C (/24
+                                Office LAN)</button>
+                            <button class="preset-pill" onclick="applySubnetPreset('10.0.0.1', 16)">Class A (/16
+                                Enterprise)</button>
+                            <button class="preset-pill" onclick="applySubnetPreset('172.16.10.1', 28)">VLAN POS (/28
+                                Retail)</button>
+                            <button class="preset-pill" onclick="applySubnetPreset('10.255.255.1', 30)">PTP Link (/30
+                                Inter-Router)</button>
+                        </div>
+                    </div>
+
+                    <!-- Calculator Results Output -->
+                    <div class="calc-results-card">
+                        <h3 class="calc-title"><i class="fas fa-chart-pie"></i> <span
+                                data-en="Calculated Subnet Architecture"
+                                data-id-lang="Arsitektur Subnet Terhitung">Calculated Subnet Architecture</span></h3>
+
+                        <div class="results-grid">
+                            <div class="result-box">
+                                <span class="res-label">Network Address (ID)</span>
+                                <span class="res-val text-primary" id="resNetAddr">192.168.10.0</span>
+                            </div>
+                            <div class="result-box">
+                                <span class="res-label">Broadcast Address</span>
+                                <span class="res-val text-danger" id="resBcastAddr">192.168.10.255</span>
+                            </div>
+                            <div class="result-box">
+                                <span class="res-label">Usable Host Range</span>
+                                <span class="res-val text-success" id="resHostRange">192.168.10.1 —
+                                    192.168.10.254</span>
+                            </div>
+                            <div class="result-box">
+                                <span class="res-label">Total Usable Hosts</span>
+                                <span class="res-val text-warning" id="resTotalHosts">254 Hosts</span>
+                            </div>
+                            <div class="result-box">
+                                <span class="res-label">Subnet Mask</span>
+                                <span class="res-val" id="resSubnetMask">255.255.255.0</span>
+                            </div>
+                            <div class="result-box">
+                                <span class="res-label">Wildcard Mask</span>
+                                <span class="res-val" id="resWildcard">0.0.0.255</span>
+                            </div>
+                        </div>
+
+                        <!-- Bitmask Graphical Allocation Visualizer -->
+                        <div class="bitmask-visualizer">
+                            <div class="bitmask-header">
+                                <span><i class="fas fa-binary"></i> 32-Bit IPv4 Allocation (Network vs Host Bits)</span>
+                                <span class="badge-cidr" id="bitmaskSummary">24 Net Bits / 8 Host Bits</span>
+                            </div>
+                            <div class="bitmask-bar" id="bitmaskBar">
+                                <!-- 32 bit boxes injected via JS -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== 2. BEFORE & AFTER OVERHAUL SHOWCASE ==================== -->
+    <section class="work-showcase" id="showcase">
+        <div class="container">
+            <h2 class="section-title" data-en="Hardware &amp; Cabling Overhaul Showcase"
+                data-id-lang="Showcase Penataan Kabel &amp; Hardware">Hardware &amp; Cabling Overhaul Showcase</h2>
+            <p class="section-subtitle"
+                data-en="Interactive drag-to-compare: Transforming messy, unmanaged setups into clean enterprise standards"
+                data-id-lang="Komparasi interaktif geser: Mentransformasi penataan berantakan menjadi standar infrastruktur enterprise rapi">
+                Interactive drag-to-compare: Transforming messy, unmanaged setups into clean enterprise standards</p>
+            <div class="section-line"></div>
+
+            <div class="showcase-grid">
+                <!-- Comparison Item 1: Server Rack & Patch Panel -->
+                <div class="compare-card reveal-stagger">
+                    <div class="compare-header">
+                        <div class="compare-badge"><i class="fas fa-network-wired"></i> Structured Cabling</div>
+                        <h4>Server Rack &amp; Patch Panel Cable Management</h4>
+                        <p>Penataan kabel LAN UTP Cat6 kusut menjadi terorganisir dengan label port &amp; sirkulasi
+                            udara optimal.</p>
+                    </div>
+
+                    <div class="compare-slider-container" id="compareSlider1">
+                        <!-- Before Visual Content -->
+                        <div class="compare-image compare-before">
+                            <div class="sim-visual sim-messy-rack">
+                                <div class="visual-badge badge-before">BEFORE: UNMANAGED</div>
+                                <div class="rack-frame">
+                                    <div class="rack-unit rack-error"><i class="fas fa-exclamation-triangle"></i>
+                                        Tangled UTP Cables</div>
+                                    <div class="rack-unit rack-error"><i class="fas fa-random"></i> Blocked Airflow
+                                        (78°C)</div>
+                                    <div class="rack-unit rack-error"><i class="fas fa-times-circle"></i> Unlabeled
+                                        Patch Ports</div>
+                                    <div class="spaghetti-cables">
+                                        <span class="cable c1"></span><span class="cable c2"></span><span
+                                            class="cable c3"></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- After Visual Content -->
+                        <div class="compare-image compare-after" id="compareAfter1">
+                            <div class="sim-visual sim-clean-rack">
+                                <div class="visual-badge badge-after">AFTER: ENTERPRISE OVERHAUL</div>
+                                <div class="rack-frame">
+                                    <div class="rack-unit rack-clean"><i class="fas fa-check-circle"></i> Structured
+                                        Color-Coded Cat6</div>
+                                    <div class="rack-unit rack-clean"><i class="fas fa-fan"></i> Optimal 100% Airflow
+                                        (42°C)</div>
+                                    <div class="rack-unit rack-clean"><i class="fas fa-tags"></i> TIA/EIA Labeled Patch
+                                        Panel</div>
+                                    <div class="clean-cable-combs">
+                                        <span class="clean-line l1"></span><span class="clean-line l2"></span><span
+                                            class="clean-line l3"></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Drag Handle -->
+                        <div class="compare-handle" id="compareHandle1">
+                            <div class="handle-line"></div>
+                            <div class="handle-pill"><i class="fas fa-arrows-alt-h"></i></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Comparison Item 2: Thermal Overhaul & PC Diagnostics -->
+                <div class="compare-card reveal-stagger">
+                    <div class="compare-header">
+                        <div class="compare-badge"><i class="fas fa-microchip"></i> Hardware Overhaul</div>
+                        <h4>Workstation Deep Clean &amp; Thermal Repasting</h4>
+                        <p>Pemulihan komputer panas &amp; throttling menjadi dingin, stabil, dan siap kerja 24/7 tanpa
+                            risiko overheat.</p>
+                    </div>
+
+                    <div class="compare-slider-container" id="compareSlider2">
+                        <!-- Before Visual Content -->
+                        <div class="compare-image compare-before">
+                            <div class="sim-visual sim-hot-pc">
+                                <div class="visual-badge badge-before">BEFORE: OVERHEATING</div>
+                                <div class="pc-frame">
+                                    <div class="temp-gauge text-danger"><i class="fas fa-fire"></i> 94°C (Thermal
+                                        Throttling)</div>
+                                    <div class="pc-status text-danger"><i class="fas fa-exclamation-circle"></i> Dried
+                                        Crusty Paste &amp; Dust Clogged</div>
+                                    <div class="pc-metric">Benchmark: 42% Performance Drop</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- After Visual Content -->
+                        <div class="compare-image compare-after" id="compareAfter2">
+                            <div class="sim-visual sim-cool-pc">
+                                <div class="visual-badge badge-after">AFTER: OVERHAULED &amp; REPASTED</div>
+                                <div class="pc-frame">
+                                    <div class="temp-gauge text-success"><i class="fas fa-snowflake"></i> 52°C (Cool
+                                        &amp; Silent)</div>
+                                    <div class="pc-status text-success"><i class="fas fa-check-circle"></i> Arctic MX-4
+                                        Premium Compound</div>
+                                    <div class="pc-metric">Benchmark: 100% Sustained Peak Clock</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Drag Handle -->
+                        <div class="compare-handle" id="compareHandle2">
+                            <div class="handle-line"></div>
+                            <div class="handle-pill"><i class="fas fa-arrows-alt-h"></i></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Comparison Item 3: POS Storage Migration (HDD to NVMe) -->
+                <div class="compare-card reveal-stagger">
+                    <div class="compare-header">
+                        <div class="compare-badge"><i class="fas fa-hdd"></i> Storage Migration</div>
+                        <h4>POS Kasir HDD to NVMe SSD Migration</h4>
+                        <p>Kloning &amp; upgrade storage kasir dari harddisk lambat ke NVMe super cepat dengan
+                            zero-data-loss.</p>
+                    </div>
+
+                    <div class="compare-slider-container" id="compareSlider3">
+                        <!-- Before Visual Content -->
+                        <div class="compare-image compare-before">
+                            <div class="sim-visual sim-slow-hdd">
+                                <div class="visual-badge badge-before">BEFORE: 5400RPM HDD</div>
+                                <div class="pc-frame">
+                                    <div class="temp-gauge text-danger"><i class="fas fa-hourglass-half"></i> 7 Menit
+                                        Booting</div>
+                                    <div class="pc-status text-danger"><i class="fas fa-exclamation-triangle"></i> 85%
+                                        Disk Busy Time &amp; Bad Sector Risk</div>
+                                    <div class="pc-metric">Kasir Lag saat Jam Ramai Transaksi</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- After Visual Content -->
+                        <div class="compare-image compare-after" id="compareAfter3">
+                            <div class="sim-visual sim-fast-nvme">
+                                <div class="visual-badge badge-after">AFTER: PCIE NVME SSD</div>
+                                <div class="pc-frame">
+                                    <div class="temp-gauge text-success"><i class="fas fa-bolt"></i> 11 Detik Instant
+                                        Boot</div>
+                                    <div class="pc-status text-success"><i class="fas fa-check-circle"></i> Clonezilla
+                                        Zero-Loss Migration</div>
+                                    <div class="pc-metric">Transaksi POS Lancar + Daily Auto-Backup</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Drag Handle -->
+                        <div class="compare-handle" id="compareHandle3">
+                            <div class="handle-line"></div>
+                            <div class="handle-pill"><i class="fas fa-arrows-alt-h"></i></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Comparison Item 4: Network QoS & Traffic Shaping -->
+                <div class="compare-card reveal-stagger">
+                    <div class="compare-header">
+                        <div class="compare-badge"><i class="fas fa-tachometer-alt"></i> Traffic Management</div>
+                        <h4>MikroTik Bandwidth Management &amp; QoS</h4>
+                        <p>Manajemen prioritas bandwidth jaringan kantor agar transaksi kasir &amp; email tidak
+                            terganggu unduhan.</p>
+                    </div>
+
+                    <div class="compare-slider-container" id="compareSlider4">
+                        <!-- Before Visual Content -->
+                        <div class="compare-image compare-before">
+                            <div class="sim-visual sim-laggy-net">
+                                <div class="visual-badge badge-before">BEFORE: UNMANAGED WAN</div>
+                                <div class="pc-frame">
+                                    <div class="temp-gauge text-danger"><i class="fas fa-signal"></i> 340ms Ping Spike
+                                    </div>
+                                    <div class="pc-status text-danger"><i class="fas fa-times-circle"></i> POS Kasir
+                                        Sering Request Timeout</div>
+                                    <div class="pc-metric">Bandwidth Monopolized by Background Updates</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- After Visual Content -->
+                        <div class="compare-image compare-after" id="compareAfter4">
+                            <div class="sim-visual sim-qos-net">
+                                <div class="visual-badge badge-after">AFTER: MIKROTIK PCQ + QOS</div>
+                                <div class="pc-frame">
+                                    <div class="temp-gauge text-success"><i class="fas fa-tachometer-alt"></i> 8ms
+                                        Stable Latency</div>
+                                    <div class="pc-status text-success"><i class="fas fa-check-circle"></i> Dedicated
+                                        Priority Queue for POS Kasir</div>
+                                    <div class="pc-metric">0% Packet Loss &amp; Fair Share untuk Office</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Drag Handle -->
+                        <div class="compare-handle" id="compareHandle4">
+                            <div class="handle-line"></div>
+                            <div class="handle-pill"><i class="fas fa-arrows-alt-h"></i></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== 3. INTERACTIVE SERVICE & SLA ESTIMATOR ==================== -->
+    <section class="sla-estimator" id="estimator">
+        <div class="container">
+            <h2 class="section-title" data-en="Service &amp; SLA Estimator"
+                data-id-lang="Kalkulator Estimasi Kebutuhan &amp; SLA">Service &amp; SLA Estimator</h2>
+            <p class="section-subtitle"
+                data-en="Calculate estimated turnaround time, recommended architecture, and SLA commitments for your workplace"
+                data-id-lang="Hitung estimasi waktu pengerjaan, rekomendasi arsitektur, dan komitmen SLA untuk kebutuhan kantor Anda">
+                Calculate estimated turnaround time, recommended architecture, and SLA commitments for your workplace
+            </p>
+            <div class="section-line"></div>
+
+            <div class="estimator-wrapper">
+                <!-- Left: Scope Selection & Slider -->
+                <div class="estimator-controls-card">
+                    <h3 class="card-heading"><i class="fas fa-cogs"></i> <span data-en="Configure Infrastructure Needs"
+                            data-id-lang="Konfigurasi Kebutuhan Infrastruktur">Configure Infrastructure Needs</span>
+                    </h3>
+
+                    <!-- Workstation Count Slider -->
+                    <div class="estimator-slider-group">
+                        <div class="slider-header">
+                            <label for="workstationRange"><span data-en="Workstations / PC Count:"
+                                    data-id-lang="Jumlah PC / Workstation:">Workstations / PC Count:</span></label>
+                            <span class="slider-badge" id="workstationCountDisplay">25 Unit</span>
+                        </div>
+                        <input type="range" id="workstationRange" min="5" max="150" value="25" step="5"
+                            class="custom-range" oninput="updateEstimator()">
+                        <div class="range-ticks">
+                            <span>5 (Small Office)</span>
+                            <span>50 (Mid-Enterprise)</span>
+                            <span>150+ (Multi-Branch)</span>
+                        </div>
+                    </div>
+
+                    <!-- Scope Selection Chips -->
+                    <div class="estimator-scope-group">
+                        <label class="scope-label"><span data-en="Select Scope of Work &amp; Services:"
+                                data-id-lang="Pilih Cakupan Layanan yang Dibutuhkan:">Select Scope of Work &amp;
+                                Services:</span></label>
+
+                        <div class="scope-grid">
+                            <label class="scope-checkbox-card active">
+                                <input type="checkbox" id="chkMikrotik" checked onchange="updateEstimator()">
+                                <div class="checkbox-inner">
+                                    <i class="fas fa-network-wired"></i>
+                                    <div>
+                                        <strong>MikroTik VLAN &amp; Routing</strong>
+                                        <p>Setup router, firewall NAT, &amp; bandwidth management</p>
+                                    </div>
+                                </div>
+                            </label>
+
+                            <label class="scope-checkbox-card active">
+                                <input type="checkbox" id="chkMaintenance" checked onchange="updateEstimator()">
+                                <div class="checkbox-inner">
+                                    <i class="fas fa-tools"></i>
+                                    <div>
+                                        <strong>Hardware &amp; Thermal Overhaul</strong>
+                                        <p>Pembersihan fisik rutin, repasting, &amp; diagnosa storage</p>
+                                    </div>
+                                </div>
+                            </label>
+
+                            <label class="scope-checkbox-card">
+                                <input type="checkbox" id="chkSecurity" onchange="updateEstimator()">
+                                <div class="checkbox-inner">
+                                    <i class="fas fa-shield-alt"></i>
+                                    <div>
+                                        <strong>Centralized Antivirus &amp; Patching</strong>
+                                        <p>Mitigasi malware, standardisasi port USB, &amp; Windows patch</p>
+                                    </div>
+                                </div>
+                            </label>
+
+                            <label class="scope-checkbox-card">
+                                <input type="checkbox" id="chkBackup" onchange="updateEstimator()">
+                                <div class="checkbox-inner">
+                                    <i class="fas fa-hdd"></i>
+                                    <div>
+                                        <strong>Automated Backup &amp; Disaster Recovery</strong>
+                                        <p>Kloning image masal (Clonezilla/Sysprep) &amp; backup terjadwal</p>
+                                    </div>
+                                </div>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right: Summary Output Card -->
+                <div class="estimator-summary-card">
+                    <h3 class="card-heading"><i class="fas fa-clipboard-list"></i> <span
+                            data-en="Estimated SLA &amp; Timeline" data-id-lang="Rangkuman Estimasi &amp; SLA">Estimated
+                            SLA &amp; Timeline</span></h3>
+
+                    <div class="summary-metric-list">
+                        <div class="summary-metric-row">
+                            <span class="metric-label"><i class="fas fa-clock text-primary"></i> <span
+                                    data-en="Estimated Turnaround:" data-id-lang="Estimasi Waktu Pengerjaan:">Estimated
+                                    Turnaround:</span></span>
+                            <span class="metric-value text-primary" id="estEta">1 - 2 Hari Kerja</span>
+                        </div>
+
+                        <div class="summary-metric-row">
+                            <span class="metric-label"><i class="fas fa-shield-virus text-success"></i> <span
+                                    data-en="Target SLA Uptime:" data-id-lang="Target Komitmen SLA:">Target SLA
+                                    Uptime:</span></span>
+                            <span class="metric-value text-success" id="estSla">99.9% Uptime Commitment</span>
+                        </div>
+
+                        <div class="summary-metric-row">
+                            <span class="metric-label"><i class="fas fa-award text-warning"></i> <span
+                                    data-en="Support Tier:" data-id-lang="Tingkat Dukungan:">Support Tier:</span></span>
+                            <span class="metric-value text-warning" id="estTier">Pro Enterprise SLA</span>
+                        </div>
+
+                        <div class="summary-metric-row">
+                            <span class="metric-label"><i class="fas fa-layer-group"></i> <span
+                                    data-en="Selected Modules:" data-id-lang="Modul Terpilih:">Selected
+                                    Modules:</span></span>
+                            <span class="metric-value" id="estModules">2 Layanan Aktif</span>
+                        </div>
+                    </div>
+
+                    <div class="summary-cta-box">
+                        <button class="btn-estimator-wa" onclick="sendEstimatorToWhatsApp()">
+                            <i class="fab fa-whatsapp"></i>
+                            <span data-en="Send Project Brief via WhatsApp"
+                                data-id-lang="Konsultasikan Rencana Ini ke WhatsApp">Konsultasikan Rencana Ini ke
+                                WhatsApp</span>
+                        </button>
+                        <p class="cta-note"><i class="fas fa-lock"></i> Estimasi langsung terisi otomatis dalam format
+                            pesan rapi siap kirim.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== CERTIFICATIONS SECTION ==================== -->
+    <section class="certifications" id="certifications">
+        <div class="container">
+            <h2 class="section-title" data-en="Certifications &amp; Credentials"
+                data-id-lang="Sertifikasi &amp; Kredensial">Certifications &amp; Credentials</h2>
+            <p class="section-subtitle" data-en="Verified technical competencies and ongoing professional development"
+                data-id-lang="Kompetensi teknis terverifikasi dan dedikasi pembelajaran berkelanjutan">Verified
+                technical competencies and ongoing professional development</p>
+            <div class="section-line"></div>
+
+            <div class="cert-grid">
+                <div class="cert-card reveal-stagger tilt-card">
+                    <div class="tilt-glare"></div>
+                    <div class="cert-badge"><i class="fas fa-award"></i></div>
+                    <div class="cert-info">
+                        <h4>CompTIA A+ (Core Series)</h4>
+                        <p class="cert-issuer">CompTIA</p>
+                        <span class="cert-year">Hardware &amp; OS Diagnostics</span>
+                    </div>
+                    <div class="cert-tag">Certified</div>
+                </div>
+                <div class="cert-card reveal-stagger tilt-card">
+                    <div class="tilt-glare"></div>
+                    <div class="cert-badge"><i class="fas fa-network-wired"></i></div>
+                    <div class="cert-info">
+                        <h4>MikroTik MTCNA / CCNA Standards</h4>
+                        <p class="cert-issuer">Network Engineering</p>
+                        <span class="cert-year">Routing &amp; Switching</span>
+                    </div>
+                    <div class="cert-tag">Network</div>
+                </div>
+                <div class="cert-card reveal-stagger tilt-card">
+                    <div class="tilt-glare"></div>
+                    <div class="cert-badge"><i class="fab fa-microsoft"></i></div>
+                    <div class="cert-info">
+                        <h4>Microsoft 365 &amp; Windows Enterprise</h4>
+                        <p class="cert-issuer">Microsoft</p>
+                        <span class="cert-year">Desktop &amp; Cloud Support</span>
+                    </div>
+                    <div class="cert-tag">Enterprise</div>
+                </div>
+                <div class="cert-card reveal-stagger tilt-card">
+                    <div class="tilt-glare"></div>
+                    <div class="cert-badge"><i class="fab fa-linux"></i></div>
+                    <div class="cert-info">
+                        <h4>Linux System Administration</h4>
+                        <p class="cert-issuer">LPI / Ubuntu Foundation</p>
+                        <span class="cert-year">Server &amp; CLI Ops</span>
+                    </div>
+                    <div class="cert-tag">Linux</div>
+                </div>
+                <div class="cert-card reveal-stagger tilt-card">
+                    <div class="tilt-glare"></div>
+                    <div class="cert-badge"><i class="fas fa-shield-alt"></i></div>
+                    <div class="cert-info">
+                        <h4>IT Infrastructure &amp; Security</h4>
+                        <p class="cert-issuer">Cyber Security Practice</p>
+                        <span class="cert-year">Threat Mitigation</span>
+                    </div>
+                    <div class="cert-tag">Security</div>
+                </div>
+                <div class="cert-card reveal-stagger tilt-card">
+                    <div class="tilt-glare"></div>
+                    <div class="cert-badge"><i class="fas fa-graduation-cap"></i></div>
+                    <div class="cert-info">
+                        <h4 data-en="Computer &amp; Network Technology" data-id-lang="Teknik Komputer &amp; Jaringan">
+                            Computer &amp; Network Technology</h4>
+                        <p class="cert-issuer">Vocational Background</p>
+                        <span class="cert-year">Formal IT Background</span>
+                    </div>
+                    <div class="cert-tag">Academic</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== EXPERIENCE SECTION ==================== -->
+    <section class="experience" id="experience">
+        <div class="container">
+            <h2 class="section-title" data-en="Career Experience" data-id-lang="Pengalaman Kerja">Career Experience</h2>
+            <p class="section-subtitle"
+                data-en="Proven track record in enterprise retail &amp; industrial IT maintenance"
+                data-id-lang="Rekam jejak terbukti dalam pemeliharaan IT ritel korporat dan industri">Proven track
+                record in enterprise retail &amp; industrial IT maintenance</p>
+            <div class="section-line"></div>
+
+            <div class="experience-layout">
+                <!-- Sticky TOC for Desktop (Hidden cleanly on Mobile) -->
+                <div class="experience-toc-wrapper reveal-left">
+                    <ul class="experience-toc" id="experienceToc">
+                        <li><a href="#exp-1" class="toc-link active">2020 - Present</a></li>
+                        <li><a href="#exp-2" class="toc-link">2017</a></li>
+                    </ul>
+                </div>
+
+                <div class="timeline">
+                    <!-- Experience 1 -->
+                    <div class="timeline-item reveal-right" id="exp-1">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <div class="timeline-date">2020 - Present (5+ Years)</div>
+                            <h3 data-en="Senior IT Support Specialist" data-id-lang="Senior IT Support Specialist">
+                                Senior IT Support Specialist</h3>
+                            <h4 class="company-name">PT Indomarco Prismatama</h4>
+                            <ul>
+                                <li data-en="Implemented scheduled preventive maintenance programs, cutting hardware failure rates by 35% across 150+ operational systems."
+                                    data-id-lang="Menerapkan jadwal preventive maintenance fisik berkala guna menekan angka kerusakan perangkat keras sebesar 35% pada 150+ komputer.">
+                                    Implemented scheduled preventive maintenance programs, cutting hardware failure
+                                    rates by 35% across 150+ operational systems.</li>
+                                <li data-en="Spearheaded centralized antivirus deployment and automated security patch management to protect enterprise data assets."
+                                    data-id-lang="Mengelola standardisasi sistem antivirus dan security patching terpusat pada seluruh komputer operasional cabang.">
+                                    Spearheaded centralized antivirus deployment and automated security patch management
+                                    to protect enterprise data assets.</li>
+                                <li data-en="Maintained a 99% SLA resolution rate for store POS infrastructure, handling rapid hardware swaps, network failover, and OS recovery."
+                                    data-id-lang="Menjaga performa infrastruktur IT dengan target SLA 99%, melakukan swap hardware cepat, konfigurasi failover jaringan, dan pemulihan OS.">
+                                    Maintained a 99% SLA resolution rate for store POS infrastructure, handling rapid
+                                    hardware swaps, network failover, and OS recovery.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Experience 2 -->
+                    <div class="timeline-item reveal-right" id="exp-2">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <div class="timeline-date">2017</div>
+                            <h3 data-en="IT Support Intern" data-id-lang="IT Support Intern">IT Support Intern</h3>
+                            <h4 class="company-name">PT PLN Keramasan Kertapati</h4>
+                            <ul>
+                                <li data-en="Assisted server administration routines, Linux/Windows OS deployment, and local server hardware health checks."
+                                    data-id-lang="Membantu pengelolaan administrasi server, instalasi sistem operasi, dan pemeliharaan perangkat keras server lokal.">
+                                    Assisted server administration routines, Linux/Windows OS deployment, and local
+                                    server hardware health checks.</li>
+                                <li data-en="Terminated UTP network cables (crimping &amp; patch panels), configured wireless access points, and resolved switch port errors."
+                                    data-id-lang="Melakukan instalasi kabel UTP dari nol (crimping &amp; patch panel), konfigurasi access point WiFi, dan perbaikan port jaringan.">
+                                    Terminated UTP network cables (crimping &amp; patch panels), configured wireless
+                                    access points, and resolved switch port errors.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== TESTIMONIALS SECTION ==================== -->
+    <section class="testimonials" id="testimonials">
+        <div class="container">
+            <h2 class="section-title" data-en="Recommendations &amp; Feedback"
+                data-id-lang="Rekomendasi &amp; Testimoni">Recommendations &amp; Feedback</h2>
+            <p class="section-subtitle" data-en="What colleagues, managers, and clients say about my work ethic"
+                data-id-lang="Apa kata rekan kerja, manajer, dan klien tentang etos kerja saya">What colleagues,
+                managers, and clients say about my work ethic</p>
+            <div class="section-line"></div>
+
+            <div class="testimonial-slider reveal">
+                <div class="testimonial-track" id="testimonialTrack">
+                    <div class="testimonial-card">
+                        <div class="testimonial-stars">
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                class="fas fa-star"></i><i class="fas fa-star"></i>
+                        </div>
+                        <p class="testimonial-text"
+                            data-en="Haris is one of the most reliable IT Support technicians I have worked with. When our office network crashed right before a major presentation, he diagnosed the broadcast storm in 15 minutes and brought everything back up smoothly."
+                            data-id-lang="Haris adalah teknisi IT Support yang paling bisa diandalkan. Saat jaringan kantor kami down menjelang presentasi penting, dia mendiagnosa broadcast storm dalam 15 menit dan memulihkan semuanya dengan tenang.">
+                            Haris is one of the most reliable IT Support technicians I have worked with. When our office
+                            network crashed right before a major presentation, he diagnosed the broadcast storm in 15
+                            minutes and brought everything back up smoothly.</p>
+                        <div class="testimonial-author">
+                            <div class="author-avatar avatar-ar"><span>AR</span></div>
+                            <div class="author-info">
+                                <h5>Ahmad Rizky</h5>
+                                <span data-en="IT Operations Manager" data-id-lang="Manajer Operasional IT">IT
+                                    Operations Manager</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="testimonial-card">
+                        <div class="testimonial-stars">
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                class="fas fa-star"></i><i class="fas fa-star"></i>
+                        </div>
+                        <p class="testimonial-text"
+                            data-en="His hardware diagnostic skills are top-notch. He recovered all financial records from a corrupted drive that other shops said was unrecoverable. Saved our company weeks of lost productivity!"
+                            data-id-lang="Keahlian diagnosa hardware Haris luar biasa. Dia berhasil menyelamatkan seluruh file pembukuan dari storage rusak yang sebelumnya dinyatakan tak bisa diselamatkan toko lain. Sangat profesional!">
+                            His hardware diagnostic skills are top-notch. He recovered all financial records from a
+                            corrupted drive that other shops said was unrecoverable. Saved our company weeks of lost
+                            productivity!</p>
+                        <div class="testimonial-author">
+                            <div class="author-avatar avatar-bs"><span>BS</span></div>
+                            <div class="author-info">
+                                <h5>Budi Santoso</h5>
+                                <span data-en="Finance Director" data-id-lang="Direktur Keuangan">Finance
+                                    Director</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="testimonial-card">
+                        <div class="testimonial-stars">
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                class="fas fa-star"></i><i class="fas fa-star"></i>
+                        </div>
+                        <p class="testimonial-text"
+                            data-en="Very communicative and patient when guiding non-technical employees through software and email setups. He is an indispensable asset for any IT infrastructure team."
+                            data-id-lang="Sangat komunikatif dan sabar dalam memandu karyawan non-teknis mengenai software dan email. Sangat direkomendasikan untuk tim infrastruktur IT mana pun.">
+                            Very communicative and patient when guiding non-technical employees through software and
+                            email setups. He is an indispensable asset for any IT infrastructure team.</p>
+                        <div class="testimonial-author">
+                            <div class="author-avatar avatar-sn"><span>SN</span></div>
+                            <div class="author-info">
+                                <h5>Siti Nurhaliza</h5>
+                                <span data-en="Office Administrator" data-id-lang="Administrator Kantor">Office
+                                    Administrator</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-controls">
+                    <button class="testimonial-btn testimonial-prev" id="prevTestimonial"
+                        aria-label="Previous Testimonial">
+                        <i class="fas fa-chevron-left"></i>
+                    </button>
+                    <div class="testimonial-dots" id="testimonialDots"></div>
+                    <button class="testimonial-btn testimonial-next" id="nextTestimonial" aria-label="Next Testimonial">
+                        <i class="fas fa-chevron-right"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== CONTACT SECTION ==================== -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2 class="section-title" data-en="Get in Touch" data-id-lang="Hubungi Saya">Get in Touch</h2>
+            <p class="section-subtitle"
+                data-en="Let's discuss full-time career opportunities, IT consultations, or emergency infrastructure support"
+                data-id-lang="Mari diskusikan peluang kerja penuh waktu, konsultasi IT, atau dukungan darurat infrastruktur">
+                Let's discuss full-time career opportunities, IT consultations, or emergency infrastructure support</p>
+            <div class="section-line"></div>
+
+            <div class="contact-grid">
+                <div class="contact-info reveal-left">
+                    <h3 data-en="Let's Connect &amp; Collaborate" data-id-lang="Mari Terhubung &amp; Bekerja Sama">Let's
+                        Connect &amp; Collaborate</h3>
+                    <p data-en="Looking for a dependable, proactive IT Support Specialist to strengthen your technical team? Reach out through any of these direct channels."
+                        data-id-lang="Mencari spesialis IT Support yang proaktif dan dapat diandalkan untuk memperkuat tim Anda? Hubungi saya melalui kontak di bawah ini.">
+                        Looking for a dependable, proactive IT Support Specialist to strengthen your technical team?
+                        Reach out through any of these direct channels.</p>
+
+                    <div class="contact-details">
+                        <div class="contact-item contact-copy-item"
+                            onclick="copyToClipboard('mhrs.354@gmail.com', 'Alamat Email')"
+                            title="Klik untuk salin email">
+                            <div class="contact-icon"><i class="fas fa-envelope"></i></div>
+                            <div class="contact-text-wrap">
+                                <h4>Email</h4>
+                                <a href="mailto:mhrs.354@gmail.com"
+                                    onclick="event.stopPropagation()">mhrs.354@gmail.com</a>
+                            </div>
+                            <button class="btn-copy-chip" aria-label="Salin Email"
+                                onclick="event.stopPropagation(); copyToClipboard('mhrs.354@gmail.com', 'Alamat Email')">
+                                <i class="far fa-copy"></i>
+                            </button>
+                        </div>
+                        <div class="contact-item contact-copy-item"
+                            onclick="copyToClipboard('+6281517318354', 'Nomor WhatsApp')"
+                            title="Klik untuk salin nomor WhatsApp">
+                            <div class="contact-icon"><i class="fas fa-phone-alt"></i></div>
+                            <div class="contact-text-wrap">
+                                <h4 data-en="WhatsApp / Phone" data-id-lang="WhatsApp / Telepon">WhatsApp / Phone</h4>
+                                <a href="https://wa.me/6281517318354" target="_blank" rel="noopener"
+                                    onclick="event.stopPropagation()">+62 815-1731-8354</a>
+                            </div>
+                            <button class="btn-copy-chip" aria-label="Salin Nomor WA"
+                                onclick="event.stopPropagation(); copyToClipboard('+6281517318354', 'Nomor WhatsApp')">
+                                <i class="far fa-copy"></i>
+                            </button>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon"><i class="fas fa-map-marker-alt"></i></div>
+                            <div>
+                                <h4 data-en="Location" data-id-lang="Lokasi">Location</h4>
+                                <span>Palembang, Sumatera Selatan, Indonesia</span>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon"><i class="fas fa-clock"></i></div>
+                            <div>
+                                <h4 data-en="Availability" data-id-lang="Ketersediaan">Availability</h4>
+                                <span data-en="Full-Time / On-Site / Remote"
+                                    data-id-lang="Full-Time / On-Site / Remote">Full-Time / On-Site / Remote</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="quick-wa-banner" onclick="openWaModal()">
+                        <i class="fab fa-whatsapp"></i>
+                        <div>
+                            <strong data-en="Need Quick Response?" data-id-lang="Butuh Respon Cepat?">Need Quick
+                                Response?</strong>
+                            <p data-en="Click here to build a prefilled WhatsApp inquiry"
+                                data-id-lang="Klik di sini untuk buat pesan WhatsApp instan">Click here to build a
+                                prefilled WhatsApp inquiry</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Contact Form -->
+                <form class="contact-form reveal-right" id="contactForm" onsubmit="handleContactFormSubmit(event)">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" required placeholder=" ">
+                        <label for="name" data-en="Your Name / Company" data-id-lang="Nama Anda / Perusahaan">Your Name
+                            / Company</label>
+                        <span class="form-line"></span>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" required placeholder=" ">
+                        <label for="email">Email Address</label>
+                        <span class="form-line"></span>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="subject" name="subject_matter" required placeholder=" ">
+                        <label for="subject" data-en="Inquiry Topic / Service Needed"
+                            data-id-lang="Topik / Kebutuhan Layanan">Inquiry Topic / Service Needed</label>
+                        <span class="form-line"></span>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" rows="4" required placeholder=" "></textarea>
+                        <label for="message" data-en="Message Details..."
+                            data-id-lang="Detail Pesan / Kebutuhan...">Message Details...</label>
+                        <span class="form-line"></span>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-submit btn-wa-submit">
+                        <i class="fab fa-whatsapp"></i>
+                        <span data-en="Send via WhatsApp" data-id-lang="Kirim via WhatsApp">Kirim via WhatsApp</span>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== FOOTER ==================== -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <div class="footer-logo">&lt;MH/&gt;</div>
+                    <p class="footer-desc"
+                        data-en="IT Support Specialist dedicated to providing high-uptime hardware, software, and networking solutions."
+                        data-id-lang="Spesialis IT Support berdedikasi menghadirkan solusi hardware, software, dan jaringan berkeandalan tinggi.">
+                        IT Support Specialist dedicated to providing high-uptime hardware, software, and networking
+                        solutions.</p>
+                    <div class="social-links">
+                        <a href="https://wa.me/6281517318354" class="social-link social-wa" title="WhatsApp"
+                            target="_blank" rel="noopener"><i class="fab fa-whatsapp"></i></a>
+                        <a href="https://www.instagram.com/harisjkm" class="social-link social-ig"
+                            title="Instagram (@harisjkm)" target="_blank" rel="noopener"><i
+                                class="fab fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/muhamad-haris-jkm354/" class="social-link social-li"
+                            title="LinkedIn (Muhamad Haris)" target="_blank" rel="noopener"><i
+                                class="fab fa-linkedin-in"></i></a>
+                        <a href="https://www.tiktok.com/@harisjkm" class="social-link social-tt"
+                            title="TikTok (@harisjkm)" target="_blank" rel="noopener"><i class="fab fa-tiktok"></i></a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h4 data-en="Navigation" data-id-lang="Navigasi">Navigation</h4>
+                    <ul class="footer-links">
+                        <li><a href="#hero" data-en="Home" data-id-lang="Beranda">Home</a></li>
+                        <li><a href="#about" data-en="About Me" data-id-lang="Tentang Saya">About Me</a></li>
+                        <li><a href="#skills" data-en="Skills &amp; Tools" data-id-lang="Keahlian">Skills &amp;
+                                Tools</a></li>
+                        <li><a href="#case-studies" data-en="Troubleshooting Cases"
+                                data-id-lang="Studi Kasus">Troubleshooting Cases</a></li>
+                        <li><a href="#experience" data-en="Career Experience" data-id-lang="Pengalaman">Career
+                                Experience</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4 data-en="Core Services" data-id-lang="Layanan Utama">Core Services</h4>
+                    <ul class="footer-links">
+                        <li><a href="#services" data-en="PC &amp; Server Assembly"
+                                data-id-lang="Rakit PC &amp; Server">PC &amp; Server Assembly</a></li>
+                        <li><a href="#services" data-en="MikroTik Routing &amp; LAN"
+                                data-id-lang="Routing MikroTik &amp; LAN">MikroTik Routing &amp; LAN</a></li>
+                        <li><a href="#services" data-en="CCTV Camera Setup" data-id-lang="Instalasi CCTV">CCTV Camera
+                                Setup</a></li>
+                        <li><a href="#services" data-en="Preventive Maintenance"
+                                data-id-lang="Pemeliharaan Rutin">Preventive Maintenance</a></li>
+                        <li><a href="#services" data-en="Disaster Data Recovery" data-id-lang="Pemulihan Data">Disaster
+                                Data Recovery</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4 data-en="Interactive Tools" data-id-lang="Alat Interaktif">Interactive Tools</h4>
+                    <ul class="footer-links">
+                        <li><a href="#lab"><i class="fas fa-network-wired"></i> <span
+                                    data-en="Network Topology &amp; Subnet Lab"
+                                    data-id-lang="Lab Topologi &amp; Subnetting">Network Topology &amp; Subnet
+                                    Lab</span></a></li>
+                        <li><a href="#showcase"><i class="fas fa-sliders-h"></i> <span
+                                    data-en="Before &amp; After Showcase"
+                                    data-id-lang="Showcase Komparasi Overhaul">Before &amp; After Showcase</span></a>
+                        </li>
+                        <li><a href="#estimator"><i class="fas fa-calculator"></i> <span
+                                    data-en="Service &amp; SLA Estimator" data-id-lang="Kalkulator Estimasi SLA">Service
+                                    &amp; SLA Estimator</span></a></li>
+                        <li><a href="javascript:void(0)" onclick="openCmdPaletteModal()"><i class="fas fa-search"></i>
+                                <span data-en="Command Palette (Ctrl+K)" data-id-lang="Pencarian Cepat (Ctrl+K)">Command
+                                    Palette (Ctrl+K)</span></a></li>
+                        <li><a href="javascript:void(0)" onclick="openTerminalModal()"><i class="fas fa-terminal"></i>
+                                <span data-en="Interactive CLI Terminal"
+                                    data-id-lang="Terminal CLI Interaktif">Interactive CLI Terminal</span></a></li>
+                        <li><a href="javascript:void(0)" onclick="openCVModal()"><i class="fas fa-file-pdf"></i> <span
+                                    data-en="Visual PDF CV Preview" data-id-lang="Pratinjau &amp; Unduh PDF CV">Visual
+                                    PDF CV Preview</span></a></li>
+                    </ul>
+                    <div class="footer-emergency">
+                        <i class="fas fa-shield-alt"></i>
+                        <span data-en="SLA Compliance Standard: 99%" data-id-lang="Standar Kepatuhan SLA: 99%">SLA
+                            Compliance Standard: 99%</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p data-en="&copy; 2026 Muhamad Haris. All rights reserved."
+                    data-id-lang="&copy; 2026 Muhamad Haris. Hak cipta dilindungi.">&copy; 2026 Muhamad Haris. All
+                    rights reserved.</p>
+                <p class="footer-credit"
+                    data-en="Crafted with Passion &amp; Engineering Precision • Palembang, Indonesia"
+                    data-id-lang="Dirancang dengan Dedikasi &amp; Presisi Teknis • Palembang, Indonesia">Crafted with
+                    Passion &amp; Engineering Precision • Palembang, Indonesia</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ==================== MODALS & FLOATING WIDGETS ==================== -->
+
+    <!-- WhatsApp Floating Action -->
+    <a href="javascript:void(0)" onclick="openWaModal()" class="whatsapp-float" id="whatsappFloat"
+        title="Quick WhatsApp Chat">
+        <i class="fab fa-whatsapp"></i>
+        <span class="whatsapp-tooltip" data-en="Quick WhatsApp Inquiry" data-id-lang="Pesan WhatsApp Cepat">Quick
+            WhatsApp Inquiry</span>
+    </a>
+
+    <!-- Back to Top Button with SVG Circular Progress -->
+    <button class="back-to-top" id="backToTop" title="Back to Top" aria-label="Back to Top">
+        <svg class="progress-ring" viewBox="0 0 48 48" width="48" height="48">
+            <circle class="progress-ring-circle-bg" stroke="rgba(255,255,255,0.12)" stroke-width="3" fill="transparent"
+                r="20" cx="24" cy="24" />
+            <circle class="progress-ring-circle" id="progressRingCircle" stroke="url(#progressGrad)" stroke-width="3"
+                stroke-linecap="round" fill="transparent" r="20" cx="24" cy="24" />
+            <defs>
+                <linearGradient id="progressGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                    <stop offset="0%" stop-color="#00d4ff" />
+                    <stop offset="100%" stop-color="#a855f7" />
+                </linearGradient>
+            </defs>
+        </svg>
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- 1. INTERACTIVE IT TERMINAL MODAL (CLI) -->
+    <div class="terminal-modal-overlay" id="terminalOverlay">
+        <div class="terminal-window">
+            <div class="terminal-titlebar">
+                <div class="terminal-dots">
+                    <span class="dot dot-red" onclick="closeTerminalModal()"></span>
+                    <span class="dot dot-yellow"></span>
+                    <span class="dot dot-green"></span>
+                </div>
+                <div class="terminal-title">
+                    <i class="fas fa-terminal"></i> haris@it-support-hub:~ (bash)
+                </div>
+                <div class="terminal-actions">
+                    <button class="term-btn" onclick="clearTerminal()"><i class="fas fa-eraser"></i></button>
+                    <button class="term-btn" onclick="closeTerminalModal()"><i class="fas fa-times"></i></button>
+                </div>
+            </div>
+
+            <div class="terminal-body" id="terminalBody">
+                <div class="term-line banner">
+                    <pre class="ascii-logo">
+ __  __ _   _ _   _    _    __  __    _    ____    _   _    _    ____  ___ ____  
+|  \/  | | | | | | |  / \  |  \/  |  / \  |  _ \  | | | |  / \  |  _ \|_ _/ ___| 
+| |\/| | | | | |_| | / _ \ | |\/| | / _ \ | | | | | |_| | / _ \ | |_) || |\___ \ 
+| |  | | |_| |  _  |/ ___ \| |  | |/ ___ \| |_| | |  _  |/ ___ \|  _ < | | ___) |
+|_|  |_|\___/|_| |_/_/   \_\_|  |_/_/   \_\____/  |_| |_/_/   \_\_| \_\___|____/ 
+                    </pre>
+                    <p class="term-welcome">Welcome to Muhamad Haris's Interactive IT Support Shell v2.6</p>
+                    <p class="term-tip">Type <span class="highlight">help</span> to view available commands, or <span
+                            class="highlight">diagnose</span> to run full system check.</p>
+                </div>
+
+                <div id="terminalOutput"></div>
+
+                <div class="terminal-prompt-line">
+                    <span class="term-user">guest@muhamadharis-pc</span>:<span class="term-path">~</span>$&nbsp;
+                    <input type="text" id="terminalInput" class="terminal-input" autocomplete="off" autocorrect="off"
+                        autocapitalize="off" spellcheck="false" autofocus>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 2. WHATSAPP PRESET BUILDER MODAL -->
+    <div class="wa-modal-overlay" id="waModalOverlay">
+        <div class="wa-modal">
+            <div class="wa-modal-header">
+                <div class="wa-header-left">
+                    <i class="fab fa-whatsapp"></i>
+                    <div>
+                        <h3 data-en="Instant WhatsApp Chat" data-id-lang="Chat WhatsApp Instan">Instant WhatsApp Chat
+                        </h3>
+                        <span>Muhamad Haris (+62 815-1731-8354)</span>
+                    </div>
+                </div>
+                <button class="wa-close-btn" onclick="closeWaModal()"><i class="fas fa-times"></i></button>
+            </div>
+            <div class="wa-modal-body">
+                <p class="wa-prompt" data-en="Choose an inquiry template or customize your message below:"
+                    data-id-lang="Pilih topik kebutuhan Anda atau ketik pesan langsung:">Choose an inquiry template or
+                    customize your message below:</p>
+
+                <div class="wa-preset-chips">
+                    <button type="button" class="preset-chip active"
+                        data-msg="Halo Haris, saya tertarik dengan profil portofolio Anda dan ingin berdiskusi mengenai lowongan kerja IT Support di perusahaan kami.">
+                        💼 Rekrutmen / Lowongan IT Support
+                    </button>
+                    <button type="button" class="preset-chip"
+                        data-msg="Halo Haris, saya butuh bantuan perbaikan &amp; troubleshooting hardware PC/Laptop kantor.">
+                        🖥️ Perbaikan Hardware PC/Laptop
+                    </button>
+                    <button type="button" class="preset-chip"
+                        data-msg="Halo Haris, saya ingin konsultasi instalasi &amp; konfigurasi jaringan kantor / MikroTik / WiFi.">
+                        🌐 Setup Jaringan &amp; MikroTik
+                    </button>
+                    <button type="button" class="preset-chip"
+                        data-msg="Halo Haris, saya tertarik dengan layanan pemeliharaan berkala (Preventive Maintenance) IT.">
+                        🛠️ Pemeliharaan IT Berkala (PM)
+                    </button>
+                </div>
+
+                <div class="wa-custom-input">
+                    <label for="waCustomText" data-en="Message Preview:" data-id-lang="Pratinjau Pesan:">Message
+                        Preview:</label>
+                    <textarea id="waCustomText" rows="3"></textarea>
+                </div>
+            </div>
+            <div class="wa-modal-footer">
+                <button type="button" class="btn-wa-cancel" onclick="closeWaModal()">Batal</button>
+                <button type="button" class="btn-wa-send" onclick="sendWhatsAppMessage()">
+                    <i class="fab fa-whatsapp"></i> <span data-en="Open in WhatsApp"
+                        data-id-lang="Kirim ke WhatsApp">Open in WhatsApp</span>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- 3. ENHANCED CV MODAL (PDF PREVIEW & DOWNLOAD) -->
+    <div class="cv-modal-overlay" id="cvModalOverlay">
+        <div class="cv-modal">
+            <div class="cv-modal-header">
+                <div class="cv-header-title">
+                    <i class="fas fa-file-pdf"></i>
+                    <span>CURRICULUM VITAE (PDF PREVIEW) &bull; MUHAMAD HARIS</span>
+                </div>
+                <div class="cv-header-actions">
+                    <button class="cv-btn-print" onclick="printCV()" title="Cetak atau Simpan via Print Browser">
+                        <i class="fas fa-print"></i> <span>CETAK / PRINT</span>
+                    </button>
+                    <button class="cv-btn-download" onclick="downloadPdfCV()" title="Download Berkas PDF Resmi">
+                        <i class="fas fa-file-pdf"></i> <span>DOWNLOAD PDF</span>
+                    </button>
+                    <button class="cv-btn-close" onclick="closeCVModal()" aria-label="Close">
+                        <i class="fas fa-times"></i>
+                    </button>
+                </div>
+            </div>
+
+            <div class="cv-modal-body">
+                <div class="cv-paper" id="cvPaper">
+                    <!-- CV Header -->
+                    <div class="cv-paper-header">
+                        <div class="cv-header-flex">
+                            <div class="cv-header-text">
+                                <h1>MUHAMAD HARIS</h1>
+                                <p class="cv-subtitle">SENIOR IT SUPPORT SPECIALIST &amp; NETWORK ENGINEER</p>
+                                <div class="cv-contact-info">
+                                    <span><i class="fas fa-map-marker-alt"></i> Palembang, Sumatera Selatan,
+                                        Indonesia</span>
+                                    <span><i class="fas fa-envelope"></i> mhrs.354@gmail.com</span>
+                                    <span><i class="fas fa-phone-alt"></i> +62 815-1731-8354</span>
+                                    <span><i class="fas fa-briefcase"></i> Siap Kerja / Full-Time &amp; Kontrak</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Professional Summary -->
+                    <div class="cv-section">
+                        <h2 class="cv-section-title"><i class="fas fa-user-check"></i> RINGKASAN PROFESIONAL
+                            (PROFESSIONAL SUMMARY)</h2>
+                        <p class="cv-text">
+                            Spesialis IT Support &amp; Teknisi Jaringan berdedikasi tinggi dengan pengalaman kerja
+                            <strong>5+ tahun</strong> di lingkungan retail &amp; enterprise (<strong>PT Indomarco
+                                Prismatama</strong>). Terbukti andal dalam memangkas tingkat kegagalan hardware hingga
+                            <strong>35%</strong>, instalasi &amp; konfigurasi routing MikroTik VLAN, standardisasi
+                            keamanan antivirus terpusat, deployment sistem operasi massal (Sysprep/Clonezilla), serta
+                            penanganan insiden darurat dengan standar kepatuhan <strong>SLA 99%</strong>.
+                        </p>
+                    </div>
+
+                    <!-- Work Experience -->
+                    <div class="cv-section">
+                        <h2 class="cv-section-title"><i class="fas fa-briefcase"></i> PENGALAMAN KERJA (WORK EXPERIENCE)
+                        </h2>
+
+                        <div class="cv-job">
+                            <div class="cv-job-header">
+                                <div class="cv-job-title">
+                                    <strong>Senior IT Support Specialist</strong> &ndash; <span class="cv-company">PT
+                                        Indomarco Prismatama</span>
+                                </div>
+                                <span class="cv-date">2020 &ndash; Sekarang &bull; Palembang</span>
+                            </div>
+                            <ul class="cv-list">
+                                <li><strong>Reliabilitas Infrastruktur:</strong> Memelihara dan memastikan kelancaran
+                                    operasional 150+ workstation, server lokal cabang, serta sistem POS toko dengan
+                                    komitmen kepatuhan SLA 99%.</li>
+                                <li><strong>Preventive Maintenance:</strong> Menginisiasi jadwal pemeliharaan hardware
+                                    dan thermal overhaul berkala, berhasil menekan angka downtime dan kerusakan
+                                    perangkat keras sebesar 35%.</li>
+                                <li><strong>Manajemen Jaringan:</strong> Mengonfigurasi router MikroTik, VLAN
+                                    segmentation antardivisi, DHCP/DNS server, bandwidth management, serta failover link
+                                    untuk menjaga uptime operasional.</li>
+                                <li><strong>Keamanan Sistem &amp; Endpoint:</strong> Menerapkan standardisasi antivirus
+                                    korporat, patch security Windows terpusat, mitigasi malware/ransomware, serta
+                                    proteksi port USB pada titik kasir/kritis.</li>
+                                <li><strong>Disaster Recovery &amp; Deployment:</strong> Melakukan kloning drive cepat
+                                    dengan Clonezilla/Sysprep, backup data terenkripsi, dan restorasi data darurat tanpa
+                                    kehilangan data transaksi.</li>
+                            </ul>
+                        </div>
+
+                        <div class="cv-job">
+                            <div class="cv-job-header">
+                                <div class="cv-job-title">
+                                    <strong>IT Support Intern</strong> &ndash; <span class="cv-company">PT PLN (Persero)
+                                        Pembangkitan Keramasan</span>
+                                </div>
+                                <span class="cv-date">2017 &bull; Palembang</span>
+                            </div>
+                            <ul class="cv-list">
+                                <li><strong>Server &amp; OS Maintenance:</strong> Membantu instalasi, konfigurasi, dan
+                                    pemeliharaan sistem operasi Windows Server &amp; Linux Ubuntu untuk kebutuhan
+                                    komputasi operasional.</li>
+                                <li><strong>Infrastruktur Jaringan Fisik:</strong> Melakukan perakitan kabel LAN (UTP
+                                    Cat6), terminasi patch panel, crimping konektor RJ45, pengujian integritas kabel,
+                                    dan manajemen switch.</li>
+                                <li><strong>Dukungan Teknis Pengguna:</strong> Memberikan penanganan teknis *first-line
+                                    support* untuk perangkat printer kantor, scanner, instalasi software kantor, dan
+                                    konfigurasi access point WiFi.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Core Competencies & Skills -->
+                    <div class="cv-section">
+                        <h2 class="cv-section-title"><i class="fas fa-cogs"></i> KEAHLIAN UTAMA &amp; TEKNOLOGI (CORE
+                            COMPETENCIES)</h2>
+                        <div class="cv-skills-grid">
+                            <div class="cv-skill-group">
+                                <strong><i class="fas fa-desktop"></i> Hardware &amp; Periferal:</strong>
+                                <p>Diagnostik Komponen &amp; Motherboard, Perakitan PC/Server, Thermal Overhaul, Upgrade
+                                    RAM/NVMe SSD, Perbaikan Printer Laser/Thermal POS, Instalasi CCTV NVR/DVR.</p>
+                            </div>
+                            <div class="cv-skill-group">
+                                <strong><i class="fas fa-network-wired"></i> Jaringan &amp; Routing:</strong>
+                                <p>MikroTik RouterOS (Routing, Firewall NAT, Bandwidth Queues, Hotspot), VLAN Trunking,
+                                    WiFi Bridge &amp; Access Point, Crimping &amp; Patch Panel, Wireshark Packet
+                                    Analysis.</p>
+                            </div>
+                            <div class="cv-skill-group">
+                                <strong><i class="fab fa-windows"></i> Sistem Operasi &amp; Tool:</strong>
+                                <p>Windows 10/11 Pro, Windows Server, Linux Ubuntu CLI, Microsoft 365, Outlook, Remote
+                                    Support (AnyDesk, TeamViewer, RustDesk), Clonezilla, DISM, PowerShell Automation.
+                                </p>
+                            </div>
+                            <div class="cv-skill-group">
+                                <strong><i class="fas fa-shield-alt"></i> Keamanan &amp; Backup:</strong>
+                                <p>Centralized Antivirus, Malware Mitigation &amp; Sanitization, USB Storage Lockdown,
+                                    Automatic Scheduled Backup, Disaster Recovery Planning.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Certifications & Training -->
+                    <div class="cv-section">
+                        <h2 class="cv-section-title"><i class="fas fa-certificate"></i> SERTIFIKASI &amp; STANDAR
+                            KREDENSIAL</h2>
+                        <div class="cv-cert-grid">
+                            <div class="cv-cert-item">
+                                <i class="fas fa-check-circle"></i>
+                                <div>
+                                    <strong>MikroTik Certified Network Associate (MTCNA) Standards</strong>
+                                    <span>Routing, Switching, Firewall &amp; Bandwidth Management</span>
+                                </div>
+                            </div>
+                            <div class="cv-cert-item">
+                                <i class="fas fa-check-circle"></i>
+                                <div>
+                                    <strong>CompTIA A+ Core Series Standards</strong>
+                                    <span>Hardware Diagnostics, Operating Systems &amp; Technical Support</span>
+                                </div>
+                            </div>
+                            <div class="cv-cert-item">
+                                <i class="fas fa-check-circle"></i>
+                                <div>
+                                    <strong>Microsoft 365 &amp; Windows Desktop Administration</strong>
+                                    <span>User Management, Outlook Configuration &amp; Cloud Integration</span>
+                                </div>
+                            </div>
+                            <div class="cv-cert-item">
+                                <i class="fas fa-check-circle"></i>
+                                <div>
+                                    <strong>Linux System Administration Fundamentals</strong>
+                                    <span>Ubuntu Server, Command Line Tools &amp; Service Management</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Education -->
+                    <div class="cv-section">
+                        <h2 class="cv-section-title"><i class="fas fa-graduation-cap"></i> PENDIDIKAN (EDUCATION)</h2>
+                        <div class="cv-job">
+                            <div class="cv-job-header">
+                                <div class="cv-job-title">
+                                    <strong>Teknik Komputer dan Jaringan (TKJ)</strong>
+                                </div>
+                                <span class="cv-date">Indonesia</span>
+                            </div>
+                            <p class="cv-text" style="margin-top: 4px;">Fokus studi mendalam pada arsitektur komputer,
+                                diagnostik perangkat keras, instalasi sistem operasi, topologi jaringan LAN/WAN, serta
+                                keamanan sistem jaringan dasar.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cv-modal-footer">
+                <button class="cv-btn-cancel" onclick="closeCVModal()">TUTUP</button>
+                <button class="cv-btn-print" onclick="printCV()">
+                    <i class="fas fa-print"></i> CETAK / PRINT
+                </button>
+                <button class="cv-btn-download" onclick="downloadPdfCV()">
+                    <i class="fas fa-file-pdf"></i> DOWNLOAD PDF
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- ==================== GLOBAL COMMAND PALETTE (CTRL+K) ==================== -->
+    <div class="cmd-palette-overlay" id="cmdPaletteOverlay" onclick="closeCmdPaletteOnOverlay(event)">
+        <div class="cmd-palette-modal">
+            <div class="cmd-palette-header">
+                <i class="fas fa-search cmd-search-icon"></i>
+                <input type="text" id="cmdPaletteInput"
+                    placeholder="Ketik perintah atau cari... (cth: cv, lab, subnet, mikrotik, kontak)"
+                    autocomplete="off">
+                <kbd class="cmd-esc-badge" onclick="closeCmdPaletteModal()">ESC</kbd>
+            </div>
+            <div class="cmd-palette-body" id="cmdPaletteResults">
+                <!-- Dynamically populated via JS -->
+            </div>
+            <div class="cmd-palette-footer">
+                <span><kbd>↑</kbd> <kbd>↓</kbd> Navigasi</span>
+                <span><kbd>↵</kbd> Pilih</span>
+                <span><kbd>ESC</kbd> Tutup</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- ==================== TOAST NOTIFICATION ==================== -->
+    <div id="toastNotification" class="toast-notification">
+        <div class="toast-content">
+            <i class="fas fa-check-circle" id="toastIcon"></i>
+            <span id="toastMsg">Tersalin ke Clipboard!</span>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+</body>
+
+</html>
