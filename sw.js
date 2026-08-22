@@ -1,10 +1,14 @@
-const CACHE_NAME = 'haris-portfolio-v2';
+const CACHE_NAME = 'haris-portfolio-v3';
 const ASSETS_TO_CACHE = [
   './',
   './index.html',
   './style.css',
   './script.js',
   './manifest.json',
+  './favicon.png',
+  './favicon.ico',
+  './apple-touch-icon.png',
+  './profile.jpg',
   'https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&display=swap',
   'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css'
 ];
